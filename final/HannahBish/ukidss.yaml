@@ -1,0 +1,192 @@
+filters: {complevel: 5, complib: blosc}
+schema:
+  common:
+    primary_key: lsdsourceid
+    spatial_keys: [ra, dec]
+    columns:
+    - [lsdsourceid, u8]
+    - [sourceid, i8]
+    - [ra, f8]
+    - [dec, f8]
+    - [sigra, f4]
+    - [sigdec, f4]
+    - [epoch, f8]
+    - [l, f8]
+    - [b, f8]
+    - [yapermag3, f4] #Default point/extended source Y aperture corrected mag (2 arcsec aperture diameter). If in doubt use this
+    - [yapermag3err, f4]
+    - [j_1apermag3, f4]
+    - [j_1apermag3err, f4]
+    - [j_2apermag3, f4]
+    - [j_2apermag3err, f4]
+    - [hapermag3, f4]
+    - [hapermag3err, f4]
+    - [kapermag3, f4]
+    - [kapermag3err, f4]
+    - [ebv, f4]
+    - [ay, f4] #Galactic extinction correction in y
+    - [aj, f4]
+    - [ah, f4]
+    - [ak, f4]
+    - [mergedclass, i2] #Bayesian object classification merged from multiple observations
+
+  astrometry:
+    columns:
+    - [mura, f4]
+    - [mudec, f4]
+    - [sigmura, f4]
+    - [sigmudec, f4]
+    - [chi2, f4]
+    - [nframes, i2]
+    - [cx, f8]
+    - [cy, f8]
+    - [cz, f8]
+    - [htmid, i8]
+    - [yxi, f4] #Offset of Y detection from master position (+east/-west)
+    - [yeta, f4]
+    - [j_1xi, f4]
+    - [j_1eta, f4]
+    - [j_2xi, f4]
+    - [j_2eta, f4]
+    - [hxi, f4]
+    - [heta, f4]
+    - [kxi, f4]
+    - [keta, f4]
+
+  photoextra:
+    columns:
+    - [yhallmag, f4] #Total point source Y mag
+    - [yhallmagerr, f4]
+    - [ypetromag, f4] #Extended source Y mag (Petrosian)
+    - [ypetromagerr, f4]
+    - [ypsfmag, f4] #Point source profile-fitted Y mag
+    - [ypsfmagerr, f4]
+    - [ysermag2d, f4] #Extended source Y mag (profile-fitted)
+    - [ysermag2derr, f4]
+    - [yapermag4, f4] #Extended source Y aperture corrected mag (2.8 arcsec aperture diameter)
+    - [yapermag4err, f4]
+    - [yapermag6, f4] #Extended source Y aperture corrected mag (5.7 arcsec aperture diameter)
+    - [yapermag6err, f4]
+    - [ygausig, f4] #RMS of axes of ellipse fit in Y
+    - [yell, f4] #1-b/a, where a/b=semi-major/minor axes in Y
+    - [ypa, f4] #ellipse fit celestial orientation in Y
+    - [yerrbits, i4] #count of the number of zero confidence pixels in the default (2 arcsec diameter) aperture
+    - [ydeblend, i4] #placeholder flag indicating parent/child relation in Y
+    - [yclass, i2] #discrete image classification flag in Y
+    - [yclassstat, f4] #N(0,1) stellarness-of-profile statistic in Y
+    - [ypperrbits, i4] #Post-processing error quality bit flags
+    - [j_1hallmag, f4]
+    - [j_1hallmagerr, f4]
+    - [j_1petromag, f4]
+    - [j_1petromagerr, f4]
+    - [j_1psfmag, f4]
+    - [j_1psfmagerr, f4]
+    - [j_1sermag2d, f4]
+    - [j_1sermag2derr, f4]
+    - [j_1apermag4, f4]
+    - [j_1apermag4err, f4]
+    - [j_1apermag6, f4]
+    - [j_1apermag6err, f4]
+    - [j_1gausig, f4]
+    - [j_1ell, f4]
+    - [j_1pa, f4]
+    - [j_1errbits, i4]
+    - [j_1deblend, i4]
+    - [j_1class, i2]
+    - [j_1classstat, f4]
+    - [j_1pperrbits, i4]
+    - [j_2hallmag, f4]
+    - [j_2hallmagerr, f4]
+    - [j_2petromag, f4]
+    - [j_2petromagerr, f4]
+    - [j_2psfmag, f4]
+    - [j_2psfmagerr, f4]
+    - [j_2sermag2d, f4]
+    - [j_2sermag2derr, f4]
+    - [j_2apermag4, f4]
+    - [j_2apermag4err, f4]
+    - [j_2apermag6, f4]
+    - [j_2apermag6err, f4]
+    - [j_2gausig, f4]
+    - [j_2ell, f4]
+    - [j_2pa, f4]
+    - [j_2errbits, i4]
+    - [j_2deblend, i4]
+    - [j_2class, i2]
+    - [j_2classstat, f4]
+    - [j_2pperrbits, i4]
+    - [hhallmag, f4]
+    - [hhallmagerr, f4]
+    - [hpetromag, f4]
+    - [hpetromagerr, f4]
+    - [hpsfmag, f4]
+    - [hpsfmagerr, f4]
+    - [hsermag2d, f4]
+    - [hsermag2derr, f4]
+    - [hapermag4, f4]
+    - [hapermag4err, f4]
+    - [hapermag6, f4]
+    - [hapermag6err, f4]
+    - [hgausig, f4]
+    - [hell, f4]
+    - [hpa, f4]
+    - [herrbits, i4]
+    - [hdeblend, i4]
+    - [hclass, i2]
+    - [hclassstat, f4]
+    - [hpperrbits, i4]
+    - [khallmag, f4]
+    - [khallmagerr, f4]
+    - [kpetromag, f4]
+    - [kpetromagerr, f4]
+    - [kpsfmag, f4]
+    - [kpsfmagerr, f4]
+    - [ksermag2d, f4]
+    - [ksermag2derr, f4]
+    - [kapermag4, f4]
+    - [kapermag4err, f4]
+    - [kapermag6, f4]
+    - [kapermag6err, f4]
+    - [kgausig, f4]
+    - [kell, f4]
+    - [kpa, f4]
+    - [kerrbits, i4]
+    - [kdeblend, i4]
+    - [kclass, i2]
+    - [kclassstat, f4]
+    - [kpperrbits, i4]
+    - [eta, f8] #1-b/a, where a/b=semi-major/minor axes (SE: THETA_IMAGE) {catalogue TType keyword: Ellipticity}
+    - [ymj_1pnt, f4] #Default colour Y-J (using appropriate mags)
+    - [ymj_1pnterr, f4]
+    - [j_1mhpnt, f4]
+    - [j_1mhpnterr, f4]
+    - [hmkpnt, f4]
+    - [hmkpnterr, f4]
+    - [ymj_1ext, f4] #Extended color
+    - [ymj_1exterr, f4]
+    - [j_1mhext, f4]
+    - [j_1mhexterr, f4]
+    - [hmkext, f4]
+    - [hmkexterr, f4]
+
+  survey:
+    columns:
+    - [priorsec, i8]
+    - [yseqnum, i4] #the running number of the Y detection
+    - [yobjid, i8] #DEPRECATED (do not use)
+    - [j_1seqnum, i4]
+    - [j_1objid, i8]
+    - [j_2seqnum, i4]
+    - [j_2objid, i8]
+    - [hseqnum, i4]
+    - [hobjid, i8]
+    - [kseqnum, i4]
+    - [kobjid, i8]
+    - [mergedclassstat, f4] #Object classification
+    - [pstar, f4]
+    - [pgalaxy, f4]
+    - [pnoise, f4]
+    - [psaturated, f4]
+    - [cueventid, i4]
+    - [framesetid, i8]
+#    - [lambda, f8] #('lambda' is a python keyword) SDSS system spherical coordinate 1 of device centre

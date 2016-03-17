@@ -1,0 +1,1055 @@
+SIMPLE  =                    T / Java FITS: Wed Mar 16 19:46:30 GMT 2016        BITPIX  =                   32                                                  NAXIS   =                    0 / Dimensionality                                 EXTEND  =                    T / Extensions are permitted                       END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           /  Java FITS: Wed Mar 16 19:46:30 GMT 2016       BITPIX  =                    8                                                  NAXIS   =                    2 / Dimensionality                                 NAXIS1  =                  766                                                  NAXIS2  =                   79 /                                                PCOUNT  =                    0                                                  GCOUNT  =                    1                                                  TFIELDS =                  176                                                  SYMBOL  = '{} cross 5'                                                          DATABASE= 'ukidssdr8plus'      /  database release version                      DATE    = '2016-03-16T19:46:30' /  UTC datetime of file creation                COMMENT FITSWriter: database:ukidssdr8plus                                      COMMENT 16/03/16 19:46                                                          COMMENT SQL Query                                                               COMMENT select sourceID,cuEventID,frameSetID,ra,dec,sigRa,sigDec,epoch,muRa,    COMMENT muDec,sigMuRa,sigMuDec,chi2,nFrames,cx,cy,cz,htmID,l,b,lambda,eta,      COMMENT priOrSec,ymj_1Pnt,ymj_1PntErr,j_1mhPnt,j_1mhPntErr,hmkPnt,hmkPntErr,    COMMENT ymj_1Ext,ymj_1ExtErr,j_1mhExt,j_1mhExtErr,hmkExt,hmkExtErr,             COMMENT mergedClassStat,mergedClass,pStar,pGalaxy,pNoise,pSaturated,eBV,aY,aJ,  COMMENT aH,aK,yHallMag,yHallMagErr,yPetroMag,yPetroMagErr,yPsfMag,yPsfMagErr,   COMMENT ySerMag2D,ySerMag2DErr,yAperMag3,yAperMag3Err,yAperMag4,yAperMag4Err,   COMMENT yAperMag6,yAperMag6Err,yGausig,yEll,yPA,yErrBits,yDeblend,yClass,       COMMENT yClassStat,yppErrBits,ySeqNum,yObjID,yXi,yEta,j_1HallMag,               COMMENT j_1HallMagErr,j_1PetroMag,j_1PetroMagErr,j_1PsfMag,j_1PsfMagErr,        COMMENT j_1SerMag2D,j_1SerMag2DErr,j_1AperMag3,j_1AperMag3Err,j_1AperMag4,      COMMENT j_1AperMag4Err,j_1AperMag6,j_1AperMag6Err,j_1Gausig,j_1Ell,j_1PA,       COMMENT j_1ErrBits,j_1Deblend,j_1Class,j_1ClassStat,j_1ppErrBits,j_1SeqNum,     COMMENT j_1ObjID,j_1Xi,j_1Eta,j_2HallMag,j_2HallMagErr,j_2PetroMag,             COMMENT j_2PetroMagErr,j_2PsfMag,j_2PsfMagErr,j_2SerMag2D,j_2SerMag2DErr,       COMMENT j_2AperMag3,j_2AperMag3Err,j_2AperMag4,j_2AperMag4Err,j_2AperMag6,      COMMENT j_2AperMag6Err,j_2Gausig,j_2Ell,j_2PA,j_2ErrBits,j_2Deblend,j_2Class,   COMMENT j_2ClassStat,j_2ppErrBits,j_2SeqNum,j_2ObjID,j_2Xi,j_2Eta,hHallMag,     COMMENT hHallMagErr,hPetroMag,hPetroMagErr,hPsfMag,hPsfMagErr,hSerMag2D,        COMMENT hSerMag2DErr,hAperMag3,hAperMag3Err,hAperMag4,hAperMag4Err,hAperMag6,   COMMENT hAperMag6Err,hGausig,hEll,hPA,hErrBits,hDeblend,hClass,hClassStat,      COMMENT hppErrBits,hSeqNum,hObjID,hXi,hEta,kHallMag,kHallMagErr,kPetroMag,      COMMENT kPetroMagErr,kPsfMag,kPsfMagErr,kSerMag2D,kSerMag2DErr,kAperMag3,       COMMENT kAperMag3Err,kAperMag4,kAperMag4Err,kAperMag6,kAperMag6Err,kGausig,     COMMENT kEll,kPA,kErrBits,kDeblend,kClass,kClassStat,kppErrBits,kSeqNum,        COMMENT kObjID,kXi,kEta  from UKIDSSDR8PLUS..lasYJHKsource  where kAperMag3 >   COMMENT 22                                                                      TFORM1  = '1K      '                                                            TUCD1   = 'unknown '                                                            TCOMM1  = 'unknown '                                                            TNULL1  =            -99999999 /                                                TDIM1   = '(1)     '                                                            TTYPE1  = 'SOURCEID'                                                            TFORM2  = '1J      '                                                            TUCD2   = 'unknown '                                                            TCOMM2  = 'unknown '                                                            TNULL2  =            -99999999 /                                                TDIM2   = '(1)     '                                                            TTYPE2  = 'CUEVENTID'                                                           TFORM3  = '1K      '                                                            TUCD3   = 'unknown '                                                            TCOMM3  = 'unknown '                                                            TNULL3  =            -99999999 /                                                TDIM3   = '(1)     '                                                            TTYPE3  = 'FRAMESETID'                                                          TFORM4  = '1D      '                                                            TUNIT4  = 'RADIANS '                                                            TUCD4   = 'unknown '                                                            TCOMM4  = 'unknown '                                                            TDIM4   = '(1)     '                                                            TTYPE4  = 'RA      '                                                            TFORM5  = '1D      '                                                            TUNIT5  = 'RADIANS '                                                            TUCD5   = 'unknown '                                                            TCOMM5  = 'unknown '                                                            TDIM5   = '(1)     '                                                            TTYPE5  = 'DEC     '                                                            TFORM6  = '1E      '                                                            TUCD6   = 'unknown '                                                            TCOMM6  = 'unknown '                                                            TDIM6   = '(1)     '                                                            TTYPE6  = 'SIGRA   '                                                            TFORM7  = '1E      '                                                            TUCD7   = 'unknown '                                                            TCOMM7  = 'unknown '                                                            TDIM7   = '(1)     '                                                            TTYPE7  = 'SIGDEC  '                                                            TFORM8  = '1D      '                                                            TUCD8   = 'unknown '                                                            TCOMM8  = 'unknown '                                                            TDIM8   = '(1)     '                                                            TTYPE8  = 'EPOCH   '                                                            TFORM9  = '1E      '                                                            TUCD9   = 'unknown '                                                            TCOMM9  = 'unknown '                                                            TDIM9   = '(1)     '                                                            TTYPE9  = 'MURA    '                                                            TFORM10 = '1E      '                                                            TUCD10  = 'unknown '                                                            TCOMM10 = 'unknown '                                                            TDIM10  = '(1)     '                                                            TTYPE10 = 'MUDEC   '                                                            TFORM11 = '1E      '                                                            TUCD11  = 'unknown '                                                            TCOMM11 = 'unknown '                                                            TDIM11  = '(1)     '                                                            TTYPE11 = 'SIGMURA '                                                            TFORM12 = '1E      '                                                            TUCD12  = 'unknown '                                                            TCOMM12 = 'unknown '                                                            TDIM12  = '(1)     '                                                            TTYPE12 = 'SIGMUDEC'                                                            TFORM13 = '1E      '                                                            TUCD13  = 'unknown '                                                            TCOMM13 = 'unknown '                                                            TDIM13  = '(1)     '                                                            TTYPE13 = 'CHI2    '                                                            TFORM14 = '1I      '                                                            TUCD14  = 'unknown '                                                            TCOMM14 = 'unknown '                                                            TDIM14  = '(1)     '                                                            TTYPE14 = 'NFRAMES '                                                            TFORM15 = '1D      '                                                            TUCD15  = 'unknown '                                                            TCOMM15 = 'unknown '                                                            TDIM15  = '(1)     '                                                            TTYPE15 = 'CX      '                                                            TFORM16 = '1D      '                                                            TUCD16  = 'unknown '                                                            TCOMM16 = 'unknown '                                                            TDIM16  = '(1)     '                                                            TTYPE16 = 'CY      '                                                            TFORM17 = '1D      '                                                            TUCD17  = 'unknown '                                                            TCOMM17 = 'unknown '                                                            TDIM17  = '(1)     '                                                            TTYPE17 = 'CZ      '                                                            TFORM18 = '1K      '                                                            TUCD18  = 'unknown '                                                            TCOMM18 = 'unknown '                                                            TNULL18 =            -99999999 /                                                TDIM18  = '(1)     '                                                            TTYPE18 = 'HTMID   '                                                            TFORM19 = '1D      '                                                            TUCD19  = 'unknown '                                                            TCOMM19 = 'unknown '                                                            TDIM19  = '(1)     '                                                            TTYPE19 = 'L       '                                                            TFORM20 = '1D      '                                                            TUCD20  = 'unknown '                                                            TCOMM20 = 'unknown '                                                            TDIM20  = '(1)     '                                                            TTYPE20 = 'B       '                                                            TFORM21 = '1D      '                                                            TUCD21  = 'unknown '                                                            TCOMM21 = 'unknown '                                                            TDIM21  = '(1)     '                                                            TTYPE21 = 'LAMBDA  '                                                            TFORM22 = '1D      '                                                            TUCD22  = 'unknown '                                                            TCOMM22 = 'unknown '                                                            TDIM22  = '(1)     '                                                            TTYPE22 = 'ETA     '                                                            TFORM23 = '1K      '                                                            TUCD23  = 'unknown '                                                            TCOMM23 = 'unknown '                                                            TNULL23 =            -99999999 /                                                TDIM23  = '(1)     '                                                            TTYPE23 = 'PRIORSEC'                                                            TFORM24 = '1E      '                                                            TUCD24  = 'unknown '                                                            TCOMM24 = 'unknown '                                                            TDIM24  = '(1)     '                                                            TTYPE24 = 'YMJ_1PNT'                                                            TFORM25 = '1E      '                                                            TUCD25  = 'unknown '                                                            TCOMM25 = 'unknown '                                                            TDIM25  = '(1)     '                                                            TTYPE25 = 'YMJ_1PNTERR'                                                         TFORM26 = '1E      '                                                            TUCD26  = 'unknown '                                                            TCOMM26 = 'unknown '                                                            TDIM26  = '(1)     '                                                            TTYPE26 = 'J_1MHPNT'                                                            TFORM27 = '1E      '                                                            TUCD27  = 'unknown '                                                            TCOMM27 = 'unknown '                                                            TDIM27  = '(1)     '                                                            TTYPE27 = 'J_1MHPNTERR'                                                         TFORM28 = '1E      '                                                            TUCD28  = 'unknown '                                                            TCOMM28 = 'unknown '                                                            TDIM28  = '(1)     '                                                            TTYPE28 = 'HMKPNT  '                                                            TFORM29 = '1E      '                                                            TUCD29  = 'unknown '                                                            TCOMM29 = 'unknown '                                                            TDIM29  = '(1)     '                                                            TTYPE29 = 'HMKPNTERR'                                                           TFORM30 = '1E      '                                                            TUCD30  = 'unknown '                                                            TCOMM30 = 'unknown '                                                            TDIM30  = '(1)     '                                                            TTYPE30 = 'YMJ_1EXT'                                                            TFORM31 = '1E      '                                                            TUCD31  = 'unknown '                                                            TCOMM31 = 'unknown '                                                            TDIM31  = '(1)     '                                                            TTYPE31 = 'YMJ_1EXTERR'                                                         TFORM32 = '1E      '                                                            TUCD32  = 'unknown '                                                            TCOMM32 = 'unknown '                                                            TDIM32  = '(1)     '                                                            TTYPE32 = 'J_1MHEXT'                                                            TFORM33 = '1E      '                                                            TUCD33  = 'unknown '                                                            TCOMM33 = 'unknown '                                                            TDIM33  = '(1)     '                                                            TTYPE33 = 'J_1MHEXTERR'                                                         TFORM34 = '1E      '                                                            TUCD34  = 'unknown '                                                            TCOMM34 = 'unknown '                                                            TDIM34  = '(1)     '                                                            TTYPE34 = 'HMKEXT  '                                                            TFORM35 = '1E      '                                                            TUCD35  = 'unknown '                                                            TCOMM35 = 'unknown '                                                            TDIM35  = '(1)     '                                                            TTYPE35 = 'HMKEXTERR'                                                           TFORM36 = '1E      '                                                            TUCD36  = 'unknown '                                                            TCOMM36 = 'unknown '                                                            TDIM36  = '(1)     '                                                            TTYPE36 = 'MERGEDCLASSSTAT'                                                     TFORM37 = '1I      '                                                            TUCD37  = 'unknown '                                                            TCOMM37 = 'unknown '                                                            TNULL37 =                -9999 /                                                TDIM37  = '(1)     '                                                            TTYPE37 = 'MERGEDCLASS'                                                         TFORM38 = '1E      '                                                            TUCD38  = 'unknown '                                                            TCOMM38 = 'unknown '                                                            TDIM38  = '(1)     '                                                            TTYPE38 = 'PSTAR   '                                                            TFORM39 = '1E      '                                                            TUCD39  = 'unknown '                                                            TCOMM39 = 'unknown '                                                            TDIM39  = '(1)     '                                                            TTYPE39 = 'PGALAXY '                                                            TFORM40 = '1E      '                                                            TUCD40  = 'unknown '                                                            TCOMM40 = 'unknown '                                                            TDIM40  = '(1)     '                                                            TTYPE40 = 'PNOISE  '                                                            TFORM41 = '1E      '                                                            TUCD41  = 'unknown '                                                            TCOMM41 = 'unknown '                                                            TDIM41  = '(1)     '                                                            TTYPE41 = 'PSATURATED'                                                          TFORM42 = '1E      '                                                            TUCD42  = 'unknown '                                                            TCOMM42 = 'unknown '                                                            TDIM42  = '(1)     '                                                            TTYPE42 = 'EBV     '                                                            TFORM43 = '1E      '                                                            TUCD43  = 'unknown '                                                            TCOMM43 = 'unknown '                                                            TDIM43  = '(1)     '                                                            TTYPE43 = 'AY      '                                                            TFORM44 = '1E      '                                                            TUCD44  = 'unknown '                                                            TCOMM44 = 'unknown '                                                            TDIM44  = '(1)     '                                                            TTYPE44 = 'AJ      '                                                            TFORM45 = '1E      '                                                            TUCD45  = 'unknown '                                                            TCOMM45 = 'unknown '                                                            TDIM45  = '(1)     '                                                            TTYPE45 = 'AH      '                                                            TFORM46 = '1E      '                                                            TUCD46  = 'unknown '                                                            TCOMM46 = 'unknown '                                                            TDIM46  = '(1)     '                                                            TTYPE46 = 'AK      '                                                            TFORM47 = '1E      '                                                            TUCD47  = 'unknown '                                                            TCOMM47 = 'unknown '                                                            TDIM47  = '(1)     '                                                            TTYPE47 = 'YHALLMAG'                                                            TFORM48 = '1E      '                                                            TUCD48  = 'unknown '                                                            TCOMM48 = 'unknown '                                                            TDIM48  = '(1)     '                                                            TTYPE48 = 'YHALLMAGERR'                                                         TFORM49 = '1E      '                                                            TUCD49  = 'unknown '                                                            TCOMM49 = 'unknown '                                                            TDIM49  = '(1)     '                                                            TTYPE49 = 'YPETROMAG'                                                           TFORM50 = '1E      '                                                            TUCD50  = 'unknown '                                                            TCOMM50 = 'unknown '                                                            TDIM50  = '(1)     '                                                            TTYPE50 = 'YPETROMAGERR'                                                        TFORM51 = '1E      '                                                            TUCD51  = 'unknown '                                                            TCOMM51 = 'unknown '                                                            TDIM51  = '(1)     '                                                            TTYPE51 = 'YPSFMAG '                                                            TFORM52 = '1E      '                                                            TUCD52  = 'unknown '                                                            TCOMM52 = 'unknown '                                                            TDIM52  = '(1)     '                                                            TTYPE52 = 'YPSFMAGERR'                                                          TFORM53 = '1E      '                                                            TUCD53  = 'unknown '                                                            TCOMM53 = 'unknown '                                                            TDIM53  = '(1)     '                                                            TTYPE53 = 'YSERMAG2D'                                                           TFORM54 = '1E      '                                                            TUCD54  = 'unknown '                                                            TCOMM54 = 'unknown '                                                            TDIM54  = '(1)     '                                                            TTYPE54 = 'YSERMAG2DERR'                                                        TFORM55 = '1E      '                                                            TUCD55  = 'unknown '                                                            TCOMM55 = 'unknown '                                                            TDIM55  = '(1)     '                                                            TTYPE55 = 'YAPERMAG3'                                                           TFORM56 = '1E      '                                                            TUCD56  = 'unknown '                                                            TCOMM56 = 'unknown '                                                            TDIM56  = '(1)     '                                                            TTYPE56 = 'YAPERMAG3ERR'                                                        TFORM57 = '1E      '                                                            TUCD57  = 'unknown '                                                            TCOMM57 = 'unknown '                                                            TDIM57  = '(1)     '                                                            TTYPE57 = 'YAPERMAG4'                                                           TFORM58 = '1E      '                                                            TUCD58  = 'unknown '                                                            TCOMM58 = 'unknown '                                                            TDIM58  = '(1)     '                                                            TTYPE58 = 'YAPERMAG4ERR'                                                        TFORM59 = '1E      '                                                            TUCD59  = 'unknown '                                                            TCOMM59 = 'unknown '                                                            TDIM59  = '(1)     '                                                            TTYPE59 = 'YAPERMAG6'                                                           TFORM60 = '1E      '                                                            TUCD60  = 'unknown '                                                            TCOMM60 = 'unknown '                                                            TDIM60  = '(1)     '                                                            TTYPE60 = 'YAPERMAG6ERR'                                                        TFORM61 = '1E      '                                                            TUCD61  = 'unknown '                                                            TCOMM61 = 'unknown '                                                            TDIM61  = '(1)     '                                                            TTYPE61 = 'YGAUSIG '                                                            TFORM62 = '1E      '                                                            TUCD62  = 'unknown '                                                            TCOMM62 = 'unknown '                                                            TDIM62  = '(1)     '                                                            TTYPE62 = 'YELL    '                                                            TFORM63 = '1E      '                                                            TUCD63  = 'unknown '                                                            TCOMM63 = 'unknown '                                                            TDIM63  = '(1)     '                                                            TTYPE63 = 'YPA     '                                                            TFORM64 = '1J      '                                                            TUCD64  = 'unknown '                                                            TCOMM64 = 'unknown '                                                            TNULL64 =            -99999999 /                                                TDIM64  = '(1)     '                                                            TTYPE64 = 'YERRBITS'                                                            TFORM65 = '1J      '                                                            TUCD65  = 'unknown '                                                            TCOMM65 = 'unknown '                                                            TNULL65 =            -99999999 /                                                TDIM65  = '(1)     '                                                            TTYPE65 = 'YDEBLEND'                                                            TFORM66 = '1I      '                                                            TUCD66  = 'unknown '                                                            TCOMM66 = 'unknown '                                                            TNULL66 =                -9999 /                                                TDIM66  = '(1)     '                                                            TTYPE66 = 'YCLASS  '                                                            TFORM67 = '1E      '                                                            TUCD67  = 'unknown '                                                            TCOMM67 = 'unknown '                                                            TDIM67  = '(1)     '                                                            TTYPE67 = 'YCLASSSTAT'                                                          TFORM68 = '1J      '                                                            TUCD68  = 'unknown '                                                            TCOMM68 = 'unknown '                                                            TNULL68 =            -99999999 /                                                TDIM68  = '(1)     '                                                            TTYPE68 = 'YPPERRBITS'                                                          TFORM69 = '1J      '                                                            TUCD69  = 'unknown '                                                            TCOMM69 = 'unknown '                                                            TNULL69 =            -99999999 /                                                TDIM69  = '(1)     '                                                            TTYPE69 = 'YSEQNUM '                                                            TFORM70 = '1K      '                                                            TUCD70  = 'unknown '                                                            TCOMM70 = 'unknown '                                                            TNULL70 =            -99999999 /                                                TDIM70  = '(1)     '                                                            TTYPE70 = 'YOBJID  '                                                            TFORM71 = '1E      '                                                            TUCD71  = 'unknown '                                                            TCOMM71 = 'unknown '                                                            TDIM71  = '(1)     '                                                            TTYPE71 = 'YXI     '                                                            TFORM72 = '1E      '                                                            TUCD72  = 'unknown '                                                            TCOMM72 = 'unknown '                                                            TDIM72  = '(1)     '                                                            TTYPE72 = 'YETA    '                                                            TFORM73 = '1E      '                                                            TUCD73  = 'unknown '                                                            TCOMM73 = 'unknown '                                                            TDIM73  = '(1)     '                                                            TTYPE73 = 'J_1HALLMAG'                                                          TFORM74 = '1E      '                                                            TUCD74  = 'unknown '                                                            TCOMM74 = 'unknown '                                                            TDIM74  = '(1)     '                                                            TTYPE74 = 'J_1HALLMAGERR'                                                       TFORM75 = '1E      '                                                            TUCD75  = 'unknown '                                                            TCOMM75 = 'unknown '                                                            TDIM75  = '(1)     '                                                            TTYPE75 = 'J_1PETROMAG'                                                         TFORM76 = '1E      '                                                            TUCD76  = 'unknown '                                                            TCOMM76 = 'unknown '                                                            TDIM76  = '(1)     '                                                            TTYPE76 = 'J_1PETROMAGERR'                                                      TFORM77 = '1E      '                                                            TUCD77  = 'unknown '                                                            TCOMM77 = 'unknown '                                                            TDIM77  = '(1)     '                                                            TTYPE77 = 'J_1PSFMAG'                                                           TFORM78 = '1E      '                                                            TUCD78  = 'unknown '                                                            TCOMM78 = 'unknown '                                                            TDIM78  = '(1)     '                                                            TTYPE78 = 'J_1PSFMAGERR'                                                        TFORM79 = '1E      '                                                            TUCD79  = 'unknown '                                                            TCOMM79 = 'unknown '                                                            TDIM79  = '(1)     '                                                            TTYPE79 = 'J_1SERMAG2D'                                                         TFORM80 = '1E      '                                                            TUCD80  = 'unknown '                                                            TCOMM80 = 'unknown '                                                            TDIM80  = '(1)     '                                                            TTYPE80 = 'J_1SERMAG2DERR'                                                      TFORM81 = '1E      '                                                            TUCD81  = 'unknown '                                                            TCOMM81 = 'unknown '                                                            TDIM81  = '(1)     '                                                            TTYPE81 = 'J_1APERMAG3'                                                         TFORM82 = '1E      '                                                            TUCD82  = 'unknown '                                                            TCOMM82 = 'unknown '                                                            TDIM82  = '(1)     '                                                            TTYPE82 = 'J_1APERMAG3ERR'                                                      TFORM83 = '1E      '                                                            TUCD83  = 'unknown '                                                            TCOMM83 = 'unknown '                                                            TDIM83  = '(1)     '                                                            TTYPE83 = 'J_1APERMAG4'                                                         TFORM84 = '1E      '                                                            TUCD84  = 'unknown '                                                            TCOMM84 = 'unknown '                                                            TDIM84  = '(1)     '                                                            TTYPE84 = 'J_1APERMAG4ERR'                                                      TFORM85 = '1E      '                                                            TUCD85  = 'unknown '                                                            TCOMM85 = 'unknown '                                                            TDIM85  = '(1)     '                                                            TTYPE85 = 'J_1APERMAG6'                                                         TFORM86 = '1E      '                                                            TUCD86  = 'unknown '                                                            TCOMM86 = 'unknown '                                                            TDIM86  = '(1)     '                                                            TTYPE86 = 'J_1APERMAG6ERR'                                                      TFORM87 = '1E      '                                                            TUCD87  = 'unknown '                                                            TCOMM87 = 'unknown '                                                            TDIM87  = '(1)     '                                                            TTYPE87 = 'J_1GAUSIG'                                                           TFORM88 = '1E      '                                                            TUCD88  = 'unknown '                                                            TCOMM88 = 'unknown '                                                            TDIM88  = '(1)     '                                                            TTYPE88 = 'J_1ELL  '                                                            TFORM89 = '1E      '                                                            TUCD89  = 'unknown '                                                            TCOMM89 = 'unknown '                                                            TDIM89  = '(1)     '                                                            TTYPE89 = 'J_1PA   '                                                            TFORM90 = '1J      '                                                            TUCD90  = 'unknown '                                                            TCOMM90 = 'unknown '                                                            TNULL90 =            -99999999 /                                                TDIM90  = '(1)     '                                                            TTYPE90 = 'J_1ERRBITS'                                                          TFORM91 = '1J      '                                                            TUCD91  = 'unknown '                                                            TCOMM91 = 'unknown '                                                            TNULL91 =            -99999999 /                                                TDIM91  = '(1)     '                                                            TTYPE91 = 'J_1DEBLEND'                                                          TFORM92 = '1I      '                                                            TUCD92  = 'unknown '                                                            TCOMM92 = 'unknown '                                                            TNULL92 =                -9999 /                                                TDIM92  = '(1)     '                                                            TTYPE92 = 'J_1CLASS'                                                            TFORM93 = '1E      '                                                            TUCD93  = 'unknown '                                                            TCOMM93 = 'unknown '                                                            TDIM93  = '(1)     '                                                            TTYPE93 = 'J_1CLASSSTAT'                                                        TFORM94 = '1J      '                                                            TUCD94  = 'unknown '                                                            TCOMM94 = 'unknown '                                                            TNULL94 =            -99999999 /                                                TDIM94  = '(1)     '                                                            TTYPE94 = 'J_1PPERRBITS'                                                        TFORM95 = '1J      '                                                            TUCD95  = 'unknown '                                                            TCOMM95 = 'unknown '                                                            TNULL95 =            -99999999 /                                                TDIM95  = '(1)     '                                                            TTYPE95 = 'J_1SEQNUM'                                                           TFORM96 = '1K      '                                                            TUCD96  = 'unknown '                                                            TCOMM96 = 'unknown '                                                            TNULL96 =            -99999999 /                                                TDIM96  = '(1)     '                                                            TTYPE96 = 'J_1OBJID'                                                            TFORM97 = '1E      '                                                            TUCD97  = 'unknown '                                                            TCOMM97 = 'unknown '                                                            TDIM97  = '(1)     '                                                            TTYPE97 = 'J_1XI   '                                                            TFORM98 = '1E      '                                                            TUCD98  = 'unknown '                                                            TCOMM98 = 'unknown '                                                            TDIM98  = '(1)     '                                                            TTYPE98 = 'J_1ETA  '                                                            TFORM99 = '1E      '                                                            TUCD99  = 'unknown '                                                            TCOMM99 = 'unknown '                                                            TDIM99  = '(1)     '                                                            TTYPE99 = 'J_2HALLMAG'                                                          TFORM100= '1E      '                                                            TUCD100 = 'unknown '                                                            TCOMM100= 'unknown '                                                            TDIM100 = '(1)     '                                                            TTYPE100= 'J_2HALLMAGERR'                                                       TFORM101= '1E      '                                                            TUCD101 = 'unknown '                                                            TCOMM101= 'unknown '                                                            TDIM101 = '(1)     '                                                            TTYPE101= 'J_2PETROMAG'                                                         TFORM102= '1E      '                                                            TUCD102 = 'unknown '                                                            TCOMM102= 'unknown '                                                            TDIM102 = '(1)     '                                                            TTYPE102= 'J_2PETROMAGERR'                                                      TFORM103= '1E      '                                                            TUCD103 = 'unknown '                                                            TCOMM103= 'unknown '                                                            TDIM103 = '(1)     '                                                            TTYPE103= 'J_2PSFMAG'                                                           TFORM104= '1E      '                                                            TUCD104 = 'unknown '                                                            TCOMM104= 'unknown '                                                            TDIM104 = '(1)     '                                                            TTYPE104= 'J_2PSFMAGERR'                                                        TFORM105= '1E      '                                                            TUCD105 = 'unknown '                                                            TCOMM105= 'unknown '                                                            TDIM105 = '(1)     '                                                            TTYPE105= 'J_2SERMAG2D'                                                         TFORM106= '1E      '                                                            TUCD106 = 'unknown '                                                            TCOMM106= 'unknown '                                                            TDIM106 = '(1)     '                                                            TTYPE106= 'J_2SERMAG2DERR'                                                      TFORM107= '1E      '                                                            TUCD107 = 'unknown '                                                            TCOMM107= 'unknown '                                                            TDIM107 = '(1)     '                                                            TTYPE107= 'J_2APERMAG3'                                                         TFORM108= '1E      '                                                            TUCD108 = 'unknown '                                                            TCOMM108= 'unknown '                                                            TDIM108 = '(1)     '                                                            TTYPE108= 'J_2APERMAG3ERR'                                                      TFORM109= '1E      '                                                            TUCD109 = 'unknown '                                                            TCOMM109= 'unknown '                                                            TDIM109 = '(1)     '                                                            TTYPE109= 'J_2APERMAG4'                                                         TFORM110= '1E      '                                                            TUCD110 = 'unknown '                                                            TCOMM110= 'unknown '                                                            TDIM110 = '(1)     '                                                            TTYPE110= 'J_2APERMAG4ERR'                                                      TFORM111= '1E      '                                                            TUCD111 = 'unknown '                                                            TCOMM111= 'unknown '                                                            TDIM111 = '(1)     '                                                            TTYPE111= 'J_2APERMAG6'                                                         TFORM112= '1E      '                                                            TUCD112 = 'unknown '                                                            TCOMM112= 'unknown '                                                            TDIM112 = '(1)     '                                                            TTYPE112= 'J_2APERMAG6ERR'                                                      TFORM113= '1E      '                                                            TUCD113 = 'unknown '                                                            TCOMM113= 'unknown '                                                            TDIM113 = '(1)     '                                                            TTYPE113= 'J_2GAUSIG'                                                           TFORM114= '1E      '                                                            TUCD114 = 'unknown '                                                            TCOMM114= 'unknown '                                                            TDIM114 = '(1)     '                                                            TTYPE114= 'J_2ELL  '                                                            TFORM115= '1E      '                                                            TUCD115 = 'unknown '                                                            TCOMM115= 'unknown '                                                            TDIM115 = '(1)     '                                                            TTYPE115= 'J_2PA   '                                                            TFORM116= '1J      '                                                            TUCD116 = 'unknown '                                                            TCOMM116= 'unknown '                                                            TNULL116=            -99999999 /                                                TDIM116 = '(1)     '                                                            TTYPE116= 'J_2ERRBITS'                                                          TFORM117= '1J      '                                                            TUCD117 = 'unknown '                                                            TCOMM117= 'unknown '                                                            TNULL117=            -99999999 /                                                TDIM117 = '(1)     '                                                            TTYPE117= 'J_2DEBLEND'                                                          TFORM118= '1I      '                                                            TUCD118 = 'unknown '                                                            TCOMM118= 'unknown '                                                            TNULL118=                -9999 /                                                TDIM118 = '(1)     '                                                            TTYPE118= 'J_2CLASS'                                                            TFORM119= '1E      '                                                            TUCD119 = 'unknown '                                                            TCOMM119= 'unknown '                                                            TDIM119 = '(1)     '                                                            TTYPE119= 'J_2CLASSSTAT'                                                        TFORM120= '1J      '                                                            TUCD120 = 'unknown '                                                            TCOMM120= 'unknown '                                                            TNULL120=            -99999999 /                                                TDIM120 = '(1)     '                                                            TTYPE120= 'J_2PPERRBITS'                                                        TFORM121= '1J      '                                                            TUCD121 = 'unknown '                                                            TCOMM121= 'unknown '                                                            TNULL121=            -99999999 /                                                TDIM121 = '(1)     '                                                            TTYPE121= 'J_2SEQNUM'                                                           TFORM122= '1K      '                                                            TUCD122 = 'unknown '                                                            TCOMM122= 'unknown '                                                            TNULL122=            -99999999 /                                                TDIM122 = '(1)     '                                                            TTYPE122= 'J_2OBJID'                                                            TFORM123= '1E      '                                                            TUCD123 = 'unknown '                                                            TCOMM123= 'unknown '                                                            TDIM123 = '(1)     '                                                            TTYPE123= 'J_2XI   '                                                            TFORM124= '1E      '                                                            TUCD124 = 'unknown '                                                            TCOMM124= 'unknown '                                                            TDIM124 = '(1)     '                                                            TTYPE124= 'J_2ETA  '                                                            TFORM125= '1E      '                                                            TUCD125 = 'unknown '                                                            TCOMM125= 'unknown '                                                            TDIM125 = '(1)     '                                                            TTYPE125= 'HHALLMAG'                                                            TFORM126= '1E      '                                                            TUCD126 = 'unknown '                                                            TCOMM126= 'unknown '                                                            TDIM126 = '(1)     '                                                            TTYPE126= 'HHALLMAGERR'                                                         TFORM127= '1E      '                                                            TUCD127 = 'unknown '                                                            TCOMM127= 'unknown '                                                            TDIM127 = '(1)     '                                                            TTYPE127= 'HPETROMAG'                                                           TFORM128= '1E      '                                                            TUCD128 = 'unknown '                                                            TCOMM128= 'unknown '                                                            TDIM128 = '(1)     '                                                            TTYPE128= 'HPETROMAGERR'                                                        TFORM129= '1E      '                                                            TUCD129 = 'unknown '                                                            TCOMM129= 'unknown '                                                            TDIM129 = '(1)     '                                                            TTYPE129= 'HPSFMAG '                                                            TFORM130= '1E      '                                                            TUCD130 = 'unknown '                                                            TCOMM130= 'unknown '                                                            TDIM130 = '(1)     '                                                            TTYPE130= 'HPSFMAGERR'                                                          TFORM131= '1E      '                                                            TUCD131 = 'unknown '                                                            TCOMM131= 'unknown '                                                            TDIM131 = '(1)     '                                                            TTYPE131= 'HSERMAG2D'                                                           TFORM132= '1E      '                                                            TUCD132 = 'unknown '                                                            TCOMM132= 'unknown '                                                            TDIM132 = '(1)     '                                                            TTYPE132= 'HSERMAG2DERR'                                                        TFORM133= '1E      '                                                            TUCD133 = 'unknown '                                                            TCOMM133= 'unknown '                                                            TDIM133 = '(1)     '                                                            TTYPE133= 'HAPERMAG3'                                                           TFORM134= '1E      '                                                            TUCD134 = 'unknown '                                                            TCOMM134= 'unknown '                                                            TDIM134 = '(1)     '                                                            TTYPE134= 'HAPERMAG3ERR'                                                        TFORM135= '1E      '                                                            TUCD135 = 'unknown '                                                            TCOMM135= 'unknown '                                                            TDIM135 = '(1)     '                                                            TTYPE135= 'HAPERMAG4'                                                           TFORM136= '1E      '                                                            TUCD136 = 'unknown '                                                            TCOMM136= 'unknown '                                                            TDIM136 = '(1)     '                                                            TTYPE136= 'HAPERMAG4ERR'                                                        TFORM137= '1E      '                                                            TUCD137 = 'unknown '                                                            TCOMM137= 'unknown '                                                            TDIM137 = '(1)     '                                                            TTYPE137= 'HAPERMAG6'                                                           TFORM138= '1E      '                                                            TUCD138 = 'unknown '                                                            TCOMM138= 'unknown '                                                            TDIM138 = '(1)     '                                                            TTYPE138= 'HAPERMAG6ERR'                                                        TFORM139= '1E      '                                                            TUCD139 = 'unknown '                                                            TCOMM139= 'unknown '                                                            TDIM139 = '(1)     '                                                            TTYPE139= 'HGAUSIG '                                                            TFORM140= '1E      '                                                            TUCD140 = 'unknown '                                                            TCOMM140= 'unknown '                                                            TDIM140 = '(1)     '                                                            TTYPE140= 'HELL    '                                                            TFORM141= '1E      '                                                            TUCD141 = 'unknown '                                                            TCOMM141= 'unknown '                                                            TDIM141 = '(1)     '                                                            TTYPE141= 'HPA     '                                                            TFORM142= '1J      '                                                            TUCD142 = 'unknown '                                                            TCOMM142= 'unknown '                                                            TNULL142=            -99999999 /                                                TDIM142 = '(1)     '                                                            TTYPE142= 'HERRBITS'                                                            TFORM143= '1J      '                                                            TUCD143 = 'unknown '                                                            TCOMM143= 'unknown '                                                            TNULL143=            -99999999 /                                                TDIM143 = '(1)     '                                                            TTYPE143= 'HDEBLEND'                                                            TFORM144= '1I      '                                                            TUCD144 = 'unknown '                                                            TCOMM144= 'unknown '                                                            TNULL144=                -9999 /                                                TDIM144 = '(1)     '                                                            TTYPE144= 'HCLASS  '                                                            TFORM145= '1E      '                                                            TUCD145 = 'unknown '                                                            TCOMM145= 'unknown '                                                            TDIM145 = '(1)     '                                                            TTYPE145= 'HCLASSSTAT'                                                          TFORM146= '1J      '                                                            TUCD146 = 'unknown '                                                            TCOMM146= 'unknown '                                                            TNULL146=            -99999999 /                                                TDIM146 = '(1)     '                                                            TTYPE146= 'HPPERRBITS'                                                          TFORM147= '1J      '                                                            TUCD147 = 'unknown '                                                            TCOMM147= 'unknown '                                                            TNULL147=            -99999999 /                                                TDIM147 = '(1)     '                                                            TTYPE147= 'HSEQNUM '                                                            TFORM148= '1K      '                                                            TUCD148 = 'unknown '                                                            TCOMM148= 'unknown '                                                            TNULL148=            -99999999 /                                                TDIM148 = '(1)     '                                                            TTYPE148= 'HOBJID  '                                                            TFORM149= '1E      '                                                            TUCD149 = 'unknown '                                                            TCOMM149= 'unknown '                                                            TDIM149 = '(1)     '                                                            TTYPE149= 'HXI     '                                                            TFORM150= '1E      '                                                            TUCD150 = 'unknown '                                                            TCOMM150= 'unknown '                                                            TDIM150 = '(1)     '                                                            TTYPE150= 'HETA    '                                                            TFORM151= '1E      '                                                            TUCD151 = 'unknown '                                                            TCOMM151= 'unknown '                                                            TDIM151 = '(1)     '                                                            TTYPE151= 'KHALLMAG'                                                            TFORM152= '1E      '                                                            TUCD152 = 'unknown '                                                            TCOMM152= 'unknown '                                                            TDIM152 = '(1)     '                                                            TTYPE152= 'KHALLMAGERR'                                                         TFORM153= '1E      '                                                            TUCD153 = 'unknown '                                                            TCOMM153= 'unknown '                                                            TDIM153 = '(1)     '                                                            TTYPE153= 'KPETROMAG'                                                           TFORM154= '1E      '                                                            TUCD154 = 'unknown '                                                            TCOMM154= 'unknown '                                                            TDIM154 = '(1)     '                                                            TTYPE154= 'KPETROMAGERR'                                                        TFORM155= '1E      '                                                            TUCD155 = 'unknown '                                                            TCOMM155= 'unknown '                                                            TDIM155 = '(1)     '                                                            TTYPE155= 'KPSFMAG '                                                            TFORM156= '1E      '                                                            TUCD156 = 'unknown '                                                            TCOMM156= 'unknown '                                                            TDIM156 = '(1)     '                                                            TTYPE156= 'KPSFMAGERR'                                                          TFORM157= '1E      '                                                            TUCD157 = 'unknown '                                                            TCOMM157= 'unknown '                                                            TDIM157 = '(1)     '                                                            TTYPE157= 'KSERMAG2D'                                                           TFORM158= '1E      '                                                            TUCD158 = 'unknown '                                                            TCOMM158= 'unknown '                                                            TDIM158 = '(1)     '                                                            TTYPE158= 'KSERMAG2DERR'                                                        TFORM159= '1E      '                                                            TUCD159 = 'unknown '                                                            TCOMM159= 'unknown '                                                            TDIM159 = '(1)     '                                                            TTYPE159= 'KAPERMAG3'                                                           TFORM160= '1E      '                                                            TUCD160 = 'unknown '                                                            TCOMM160= 'unknown '                                                            TDIM160 = '(1)     '                                                            TTYPE160= 'KAPERMAG3ERR'                                                        TFORM161= '1E      '                                                            TUCD161 = 'unknown '                                                            TCOMM161= 'unknown '                                                            TDIM161 = '(1)     '                                                            TTYPE161= 'KAPERMAG4'                                                           TFORM162= '1E      '                                                            TUCD162 = 'unknown '                                                            TCOMM162= 'unknown '                                                            TDIM162 = '(1)     '                                                            TTYPE162= 'KAPERMAG4ERR'                                                        TFORM163= '1E      '                                                            TUCD163 = 'unknown '                                                            TCOMM163= 'unknown '                                                            TDIM163 = '(1)     '                                                            TTYPE163= 'KAPERMAG6'                                                           TFORM164= '1E      '                                                            TUCD164 = 'unknown '                                                            TCOMM164= 'unknown '                                                            TDIM164 = '(1)     '                                                            TTYPE164= 'KAPERMAG6ERR'                                                        TFORM165= '1E      '                                                            TUCD165 = 'unknown '                                                            TCOMM165= 'unknown '                                                            TDIM165 = '(1)     '                                                            TTYPE165= 'KGAUSIG '                                                            TFORM166= '1E      '                                                            TUCD166 = 'unknown '                                                            TCOMM166= 'unknown '                                                            TDIM166 = '(1)     '                                                            TTYPE166= 'KELL    '                                                            TFORM167= '1E      '                                                            TUCD167 = 'unknown '                                                            TCOMM167= 'unknown '                                                            TDIM167 = '(1)     '                                                            TTYPE167= 'KPA     '                                                            TFORM168= '1J      '                                                            TUCD168 = 'unknown '                                                            TCOMM168= 'unknown '                                                            TNULL168=            -99999999 /                                                TDIM168 = '(1)     '                                                            TTYPE168= 'KERRBITS'                                                            TFORM169= '1J      '                                                            TUCD169 = 'unknown '                                                            TCOMM169= 'unknown '                                                            TNULL169=            -99999999 /                                                TDIM169 = '(1)     '                                                            TTYPE169= 'KDEBLEND'                                                            TFORM170= '1I      '                                                            TUCD170 = 'unknown '                                                            TCOMM170= 'unknown '                                                            TNULL170=                -9999 /                                                TDIM170 = '(1)     '                                                            TTYPE170= 'KCLASS  '                                                            TFORM171= '1E      '                                                            TUCD171 = 'unknown '                                                            TCOMM171= 'unknown '                                                            TDIM171 = '(1)     '                                                            TTYPE171= 'KCLASSSTAT'                                                          TFORM172= '1J      '                                                            TUCD172 = 'unknown '                                                            TCOMM172= 'unknown '                                                            TNULL172=            -99999999 /                                                TDIM172 = '(1)     '                                                            TTYPE172= 'KPPERRBITS'                                                          TFORM173= '1J      '                                                            TUCD173 = 'unknown '                                                            TCOMM173= 'unknown '                                                            TNULL173=            -99999999 /                                                TDIM173 = '(1)     '                                                            TTYPE173= 'KSEQNUM '                                                            TFORM174= '1K      '                                                            TUCD174 = 'unknown '                                                            TCOMM174= 'unknown '                                                            TNULL174=            -99999999 /                                                TDIM174 = '(1)     '                                                            TTYPE174= 'KOBJID  '                                                            TFORM175= '1E      '                                                            TUCD175 = 'unknown '                                                            TCOMM175= 'unknown '                                                            TDIM175 = '(1)     '                                                            TTYPE175= 'KXI     '                                                            TFORM176= '1E      '                                                            TUCD176 = 'unknown '                                                            TCOMM176= 'unknown '                                                            TDIM176 = '(1)     '                                                            TTYPE176= 'KETA    '                                                            END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                eïq  1™   e  ´@ﬂz`Vøoπ¿≤	&ﬂŒnk Œnk @üUÅÍ¸Œnk Œnk Œnk Œnk Œnk   øÌ„¡1Áˇø÷⁄¸øf:øoπªÜ◊õ  
+8b*ˇ@t®w@N…5»∏@/ÿ∞ç.«ï¿@]â∂˙        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ø©Òê  =LÃÕ=LÃÕ?fff    <Ë∑2=Ë»<Œ‚Y<ÜÇw<'é$Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A≤Õ,A◊|A≤Õ,A◊|Œnk Œnk Œnk Œnk A…J≤CDAπ¿°AÈ˛ÆAöÒ?¿M?P™‚=çà8B/±Ö          ø©Òê           frA           eñÔp  1™   e  ´:@¡'ﬁJ≠>øqJªÆR∞Œnk Œnk @üU–°ŸOŒnk Œnk Œnk Œnk Œnk   øÍŒsë∞¿jø·yø∞=|ôøqJ∏Pîò  
+&f≥Ω@uZd;N—@L5w@|X‘@< &wV¿@c6/*H        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿ãË  =LÃÕ=LÃÕ?fff    =+Œ=O0Z=#<≈«k<v^HŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A∆r»BòxWA∆à’B∞≤Œnk Œnk Œnk Œnk AÃ⁄>CU‹0Œnk Œnk Œnk Œnk ?m‡Ô>oq0C(¶≥          ¿ãË       =    ˝‚           eò§∂  1™   e  ´k@.òê	øuI¢ç"nÍŒnk Œnk @ü]:1∑íÈŒnk Œnk Œnk Œnk Œnk   øÓÕôéÅ?—V.–FáøuIúEWñ  	ÜKd@o¶U¶i∂@Ió◊…‚‹¿4∑ÑÚ¶H¡¿@h¿Vé        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ?*≥F  =LÃÕ=LÃÕ?fff    =ñ"=>÷R=(<∂+Ç<bÏ¨Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Asß¨=;m>AÄ¬=CÕìŒnk Œnk Œnk Œnk A±É^@‘áãAíRê>s´ÊA|•=1Z»@øì|>å<@Ÿ+t          ?*≥F     P    
+÷Ö2           eõ€˝  1™   e  ¨&@ä∑Nk\ø{BÍx1;KŒnk Œnk @üUÅÎì!5Œnk Œnk Œnk Œnk Œnk   øÌ‘LoeZXø◊*ã	ıêø{B›Gh∆  
+ß@t	RI˚W@N´_)gØ∏@08±*x}¿@r’Ãàœt        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ø?O˝  =LÃÕ=LÃÕ?fff    <÷⁄ñ=<øL<x^˛<±›Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aºœ∏A‹O˜Œnk Œnk Œnk Œnk Œnk Œnk A¥≈ØAbd^A£é@u_Aê:x>‰“v?ÜÌÇ?‚–B¸q         ø?O˝   @  #    ge           eùã  1™   e  ¨8@
+ª0¨ÛïÆøs6V‘„∑Œnk Œnk @üUƒÌ7CsŒnk Œnk Œnk Œnk Œnk   øÔ\Ìõ∞”5ø…g»∂ R©øs5¸π)˙ó  
+	ÿêò@rΩ‡dÉ @OH‚ÒÅÂ @ ‚=†Ú¿@bù∂ım        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk æƒ” ˇ˛<›g…>˘¡>˘¡    <•Aå<» <íÈ¢<?	7;Ì˜˝A£@v>ùjJA¢ÿ>§Ë¶Œnk Œnk Œnk Œnk Aß1ô>â1A®|m>√õ†A¢’P>∫{Z?ó6?wB˚ õ         ?@râ      ¨    PÍH        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AÆæ@è¿⁄AÆæ@è¿⁄Œnk Œnk Œnk Œnk A¥∫§A?rAümQ?ö√Aôˆv?ìfL?P+n=ÓüPCUQ          ø•œ√          Ç<ø;é?ó    e°E  1™   e  ¨j@"·ÖÖ¸øoÃÁsœ&Œnk Œnk @üU«∂ZÔŒnk Œnk Œnk Œnk Œnk   øÔ 4œìØøœ∏°ûexøo∏≠|ö  
+	ëH2ñ@s"]ôe=ô@O2àî¯6@"≤òùõh´¿@yÄÙì•        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿SÌfˇ˛>˘¡<›g…>˘¡    <˝†P=í<·yE<íòë<6úcA±˝Ù?Æ.SAπS’@[ÄŒnk Œnk Œnk Œnk A®‘>âÉA≠B¥?Ã"A™3?TÛ?pkΩ>ÈÄ¬Búh        ˇˇ¿
+Æ>      *    J;¨        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A¨2@Ä„≤A¨2@Ä„≤Œnk Œnk Œnk Œnk A∑9AlüyA°°D?Œ≥oA®„r@ﬂEÖ?Q,=ñÉC˛ô          ¿!ß      Ë    :ÎUæ;üÁ?í˚   e},  1™   e  ¶°@
+TÛFj$øIP•–‚„ˇŒnk Œnk @üU«Át.2Œnk Œnk Œnk Œnk Œnk   øÔ3ËÊ~øŒ;√X›ËøIP•¶£t  
+	!ç'\@s≈Ω/@OhÉË#”w@!S,#ﬁ*¿@Eª.#9        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿s]	  =LÃÕ=LÃÕ?fff    <æO7<Êv¯<©/b<[ˇj<	÷Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A≥–/AWÚAŒŸµCZ·˜Œnk Œnk Œnk Œnk Aª ›A∂›}A¶¨@)¿XŒnk Œnk ?Kíì>:$Cﬂ¡          ¿s]	       §    JÎ9           eyd
+  1™   e  ¶X@	“–ÆY?|’Ö(ãŒnk Œnk @üU¬°ö]Œnk Œnk Œnk Œnk Œnk   øÔ·{áªTèø∂ë…ÆYó?|’Ñ°#|  ÄB±@qﬂ¶v¢ù⁄@NÍRi©∂ø´s≤™<¿@?W»:‘Ë        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ø”Œ\  =LÃÕ=LÃÕ?fff    <«ë÷<Ò≠ <±j›<f≥⁄<∞ØŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AüéP?xkTAüéP?xkTŒnk Œnk Œnk Œnk A∂.'Ad%èAû¯*?ìÌ¬Aúræ?≈Îü?Äî >«ä B€ä‹         ø”Œ\   @       |(           ea&*  1™   e  ¢'@I¿ãn$ˆ?g`MíJŒnk Œnk @üU≈HAÌ≤Œnk Œnk Œnk Œnk Œnk   øÎ«ÇL1"ªøﬂƒó4éÜ]?g`K~ó  ôõ°è´@u8Ü¡ª¢@MB‚≠	≤Ÿ@8¬™¢˛@f¿@(Ù//◊ˆ        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk øaÈ  =LÃÕ=LÃÕ?fff    =#3’=E£`=E<º©}<kˆŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A∞t»A3≤Œnk Œnk Œnk Œnk ?N¶Û=gπ`CÌp          øaÈ       Y    Ít           e`å  1™   e  ¢@cºsVÚe?a‚[ùŒnk Œnk @üU o’ÜŸŒnk Œnk Œnk Œnk Œnk   øÌbt?`&øŸWL@•Èq?a·GàjÃ  òÚ¥•@tQ¿d™@Nñﬁ±´t@2SPΩ∑j.¿@/O2        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿U¢L  =LÃÕ=LÃÕ?fff    <ŸŸ‰=Ë´<¡´o<{’ˇ<⁄SŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A∞#y@’ïAŒnk Œnk Œnk Œnk ?pqV>äÄ*B‘’ª          ¿U¢L       >    ARÕ           e^!]  1™   e  °˙@ÉX–*Æ?gœ]@&Ÿ’Œnk Œnk @üU s˚Œnk Œnk Œnk Œnk Œnk   øÌ/z¢ruÓø⁄>∏2Ìd¿?gœ[π	«  ò∞ØL@tm	‡9#@Nu-}W5”@35≥->"¿@)mdÍÊƒ        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿(wƒ  =LÃÕ=LÃÕ?fff    <÷1=±c<æjã<wöı<7ƒŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A™áo@6Û7Œnk Œnk Œnk Œnk Œnk Œnk A≤„‚A¶¬Œnk Œnk A£:¶@n˜Á?]rŒ>Ÿ•îB¯\W          ¿(wƒ       ;    D•a           eEß‚  1™   e  ùn@Œ”Ÿeñ?rJe†ôˆŒnk Œnk @üUÅ‰‘ìŒnk Œnk Œnk Œnk Œnk   øÓ:'_[¯0ø’,±≤?rJa§BÎ  Ñì .@s à?ùUõ@O:Í¿H@,Qûç˙i¿@9Ç3"Æ        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿f1"  =LÃÕ=LÃÕ?fff    <ƒã—<Ót<Æ∫√<c5<ÉdŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A≥)ÑA+PŒnk Œnk Aú.Ã?‘a«?Oñ=Ä˝ÄB9 ô          ¿f1"       L    gY¿           eAô  1™   e  ù3@+ì ‡qü?y◊<ˆºJÂŒnk Œnk @üU«Í¡[kŒnk Œnk Œnk Œnk Œnk   øÓ˜ó»:Mø–±ôÔî ?y◊1∫Âª  Üo“Å@s,f6Ÿ@Oó:ﬂÈ*@#/) ?f¿@É8#î        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ø∫õ?  =LÃÕ=LÃÕ?fff    <´˚<–Dº<ò‰<Fœ@;˜¶ÌŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A©≈J@l·WA©≈J@l·WŒnk Œnk Œnk Œnk A∞1*@Œ1îA£“È@›{Aû
+?˝yî?åÊ¿>Õ.‰BdÂx          ø∫õ?          Bæ~           e`  1™   e  åÂ@¬„Wo†?ñìfÁÀæjŒnk Œnk @ü^˙¥Ó¿ØŒnk Œnk Œnk Œnk Œnk   ?Ô⁄∏ïÏ?ø∑ª‘∞¡ëß?ñíÔè©  Ko§u@V`lÀö)¿LRŸ¡±.¢@$¢ıÕa@bFÈ‰Ø‹}        Œnk Œnk ø‡`=ﬁXå¿ú>ÑAV†+Œnk Œnk ø‡`=ﬁXå¿ú>ÑAV†+¿ÀEx  ='/<n’x?q—∫    =|Ä=Œ’<Ê:<ïØ´<:uÿŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aé*O<·≤éAéŸ=åLŒnk Œnk Œnk Œnk Aã}x==ëAåÅ=8AÜ¶ª=+ã	?@ı<>ÏéC ∞c          ¡*%     g    4Ë        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AívÀ>ÙKAêüß>E£ÎŒnk Œnk Œnk Œnk Aê,{=”˘Aèç±=ıòµAå;>…)?I⁄Ç?Uj≤B3ºC        ˇ˛>öN     }     —¡Mø5‘;øK”YA`T<€Y£Ajﬂ<ÍTŒnk Œnk Œnk Œnk A∑<AVûàŒnk Œnk A}”N=L)JA>Í6=¸àHB≠∏.          ¿øÎ      ü     ‚J?∑uJ?;
+ﬁ   e`  1™   e  åÂ@¬°V˙∂?ñì°Ä@Æ:Œnk Œnk @ü^˙¥Ó¿ØŒnk Œnk Œnk Œnk Œnk   ?Ô⁄á-U}ßø∑Ã3ä—∑ ?ñì)¢_WÀ  Kj˙@VÔäjè&¿LQÍ`N;ô@$™Q÷V.5@bFË˛ÚON        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿SÑSˇ˛>¡∫œ>
+`›>˘¡    = ôP=ªµ<‰¶<î©
+<9.±Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AûÍ·>ö–∆AûÖ“>™ŸŒnk Œnk Œnk Œnk Aõ~z>K§Aûl>©≥µA¶Wø?ÀZ?–<ö? [dA`       ˇ˛øó5€  @   L    4Á˘        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Ae=S≥ôAqÉâ=QŒnk Œnk Œnk Œnk AªÿIA∂!A¨@ô°AÜÇc=ÚõﬂA?`,=ˇw‡BN¨+          ¿_Ü^      y     ‚$?ΩF£>m$—   eÓÅ,  1™   e  Ü@£ÈDEâî?¢≈Fã§Œnk Œnk @üa%ﬁ5Ò∂Œnk Œnk Œnk Œnk Œnk   øÔl÷-»ç?«πƒl¯`?¢"nﬂ?®  69¸˝@pÃßˇ‹@LÌ+òXy¿/[ûô	WÏ¿>eÚ∆Ôrå        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¡Åó  =LÃÕ=LÃÕ?fff    =GL=qY\=1,‚<ÊcB<è~|Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Aƒ!BõÅ!Œnk Œnk Œnk Œnk ?í\z?≈oB.oô          ¡Åó @    ∫    jv¢           e·¥  1™   e  Çu@î0P(™?®òÈÒák-Œnk Œnk @üZES_¯Œnk Œnk Œnk Œnk Œnk   ø·/ÜûòÏÕøÍÛ&Z-Ê~?®ñ}Ì¬˜¡  .;„@&#’ö¶ä÷@Dr¬uãÙ@J1¡å3µ¿;¸£"ÁÛz        @k´ ?|vcŒnk Œnk Œnk Œnk @k´ ?|vcŒnk Œnk Œnk Œnk AVß  ;?,=VÛQ?q—∫    =ÛpV>fˆ=ÿj«=åµ(=/F•Aê,L=ës®Aé;µ=ˆ–.Œnk Œnk Œnk Œnk A±Sx?{¡A™ë·?ì Aì∆a=¢q÷@”íÕ>‚x,BÓ•          Aâ         ˛        Aë_=ªCAê’˛>ANÅŒnk Œnk Œnk Œnk Aìﬁ=ó-7AëLI=ç¶oAíı”>;–@∆FM?˝`BÄT         @c‘™     8    ˛⁄á?üÔÍ>„ÊŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AsÃ=ÌfJAÇ∑M=≤è´Œnk Œnk Œnk Œnk A∞äÁ@˙c¿Aüo?©`≥AÄ•∫=ó7(@Óì =¢xPC+≤           @ˆ*         ˝>3>Èr*æë€ò   e‘˛  1™   e  ~œ?Ô1°-*V?Æ´ŒÂŒnk Œnk @ücg˜ñdŒnk Œnk Œnk Œnk Œnk   ?‚"åòI|?ÍWüèJ#ù?Æß ñlp  !aÄí@f„ÈÚºáÀ¿C]FbO˘¿I7%Ï≥hï@a√m»p2Ç        Œnk Œnk Œnk Œnk ?ey`B4ƒ√Œnk Œnk Œnk Œnk ?ey`B4ƒ√øﬂËr  7—7—?˛¿    >BÆ>=;>>
+Íb=¥£=a‹@ÓçÌ8Ã;b@Ôm	8œWŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A/∫%9˛m“AJ“= @C+<e          ¿¬
+˜    Ω    {wF        @⁄ˇ{8è»Ω@⁄ˇ{8è»ΩŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk AJˆ9–äAë|$=ÉÁ∏BÇ⁄          @-Â‚    ¡    { ´ΩŸ3æ∑XÄŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @€¸h8√D@ﬁh8…»†Œnk Œnk Œnk Œnk Aƒ˝ BﬁBA¿–πAŒ∂’A)ÀΩ:	ú0AVC:<Îû`BA#          ?p˛q    ç    â'…æ9›ætüA@◊(8˚X@‹)@9ü1Œnk Œnk Œnk Œnk AΩ—5A⁄Ê<Œnk Œnk A8O9ß»ŸA0”®=‘ B6WN          øã    ´    á≥@ªd˙æ41≥   e»ã∂  1™   e  {ß@øífø?±vÛ≥≥™5Œnk Œnk @üZ1ç/ì3Œnk Œnk Œnk Œnk Œnk   øÂüïîE~øÁ|ÿ§Í”¡?±s|ö 4  –nîÓ@·¸l¥¬h@H⁄ÿ∏2‡@E^únô/¿;7g¶¸ﬁ        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk @FKu  ;I‹;I‹?~m    =)0=L≠∆=Ak<√b<sb1AÜ¿˛<œ”ÕAá
+<“÷êŒnk Œnk Œnk Œnk Œnk Œnk AÆÙ?qçêAää<‰ãpA'[)>†B˜PE          @cÖF     u    2e—        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Ah©ú=ö˜ At∞ü=:Ô'Œnk Œnk Œnk Œnk Aµê˚Aj·RAëec>ë’A}Ï|=~&’A}s=–d0CÁ          ?S§d      ˆ    öZ?£>y?UΩÂ   eΩ¡  1™   e  xI@	&……ïSm?≥;'÷w]YŒnk Œnk @üUyA’8ªŒnk Œnk Œnk Œnk Œnk   øÔËﬂ¨å—Ÿøc+Úï‚ı≤?≥6Ü…oÊ  ÄÑÏb@qõ–¢@P	K$Ç¸Û¿h8$üä¿<.+≠ÕBs        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿mŸ  =LÃÕ=LÃÕ?fff    <®=‚<ÀΩ†<ïë <B|…;ÚD¢Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A≥#7A=;A®m@àY§Œnk Œnk ?PL∫<Ê CŸ         ¿mŸ   @   „    dW           e∑#À  1™   e  vz@akÕ®π~?≥õÎìbZŒnk Œnk @üXÊÎ§Œnk Œnk Œnk Œnk Œnk   øÂ3N$AKX?ÁÿÊOO?≥óGRE  êtósD@k◊:Dé@;Üz&1˛≈¿Jë£NØí¿9,	
+î≤>        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk @f˙ˇ˛<›g…>˘¡>˘¡    =G“=.πG= CÚ<¶…œ<O√ïŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AÜ=&Ä_AÜJ=ù:ƒŒnk Œnk Œnk Œnk A°Ún>ïû÷AõT¯>#`*Aà∏î=˚_A>.>-ÆÃBØP0        @]Í   @  e    m˙V        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Av»≠=ÂµsAá{=≥.∂Œnk Œnk Œnk Œnk A∑oúA;|Aò>Õ{´AÇÓÂ=Ü<y@‹=7}ÄB≤“         ?ŒÃ(  @  0    W8∏?ê¢>€-’   e§&ƒ  1™   e  p∫@ñbÙ<¬¿?∂˚P'ﬂîPŒnk Œnk @üX∫óßRŒnk Œnk Œnk Œnk Œnk   ø‚∑;CbÙí?ÈÃŸ;ˆ?∂Ûi˘·M°  ì÷’õ@kb µœ∞•@6ﬂ#ıTÍÔ¿MT’ï[ÿ¿6ìJÌ©G        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ?ìüˇ˛<›g…>˘¡>˘¡    <∂ep<‹·¿<¢&w<RŸù<SGAù¶>Fﬂ8Aù¶>Fﬂ8Œnk Œnk Œnk Œnk A£Üø>r=ÏA†.0>BO¥A∞ﬂ@î8?x[	>é(A¯TÄ         ?œı     á    d.        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AWÙ<öÿAcøZ<£åíŒnk Œnk Œnk Œnk Aø&€A˝0Añ‹—>π#÷A}(‘= óºAv6Å=±ç®C%`f          ;–Ô     |    cèê?}©—?õdj   eú%  1™   e  n@UÍáÂR?∑ÑıÛ»Á Œnk Œnk @üUùºps¯Œnk Œnk Œnk Œnk Œnk   ø‰›ñEŸøË∏ŒÔ!¢?∑|~àkJï  #qà@!f“—y…@G›ì© OG@F–‡◊ü&a¿8ˆ	ú{q’        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk øäÉ  =LÃÕ=LÃÕ?fff    =0Ú&=VH=N<Ãå©<~ÕVŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AöÂ}>õÍA¬XPBû¸Œnk Œnk Œnk Œnk A∞ÃJ@¨à,AüS∫?jÚ'AîMá>ÛJ?5Û>ÀÇ2CtW          øäÉ      .    é º           eúÂ  1™   e  n|@*I|°˙R?∑‹/ÙId£Œnk Œnk @üUùæ®0ıŒnk Œnk Œnk Œnk Œnk   ø„–øµvøËÛ®\ ÎÅ?∑”X˛L◊  #i8ﬁ¡@"∏Ã•8d@Gùée#¢@G$«ä¿8¬å»¸;™        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ø±`û  =LÃÕ=LÃÕ?fff    =?˜=hxB=*®0<›Èd<ä7Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A∂WAPŒnk Œnk AõK÷?Öﬁ?Pkø>E®ÃB6´°         ø±`û   @  Ã    é˘4           eìâm  1™   e  l)@/4--¥+?∏É¨øΩ»LŒnk Œnk @üUù¡€•'Œnk Œnk Œnk Œnk Œnk   ø„∞ß‚áøÈ
+byªÜR?∏zä˝ú%  #·ÚÈ@#â!®uiô@GãGÿt{@GEÀ=§&¥¿8ÇQ˚1X	        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿IL  =LÃÕ=LÃÕ?fff    =>ãL=fø∫=)dÀ<‹Dﬁ<â1Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A∏å2AO˘Œnk Œnk Œnk Œnk ?O!ÿ=%∂PB¸ß          ¿IL      d    èW5           eã!Ç  1™   e  i∏@+j>…?πt&÷W„Œnk Œnk @üUùµ‘C)Œnk Œnk Œnk Œnk Œnk   ø„≈›·KøËıd˜õ´?πikß@LE  #bä&1@#∞¸ƒßD@G±Å˙@G((Üà≥ ¿8<∂Åı!Ô   e  l3Œnk Œnk Œnk Œnk ¿{ÊA#ÃŒnk Œnk Œnk Œnk ¿{ÊA#Ãø )fˇ˛>˘¡<›g…>˘¡    =EV^=n˘æ=/n‘<‰<<é:Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aó–≠>˙˜Aï¸—>'â{Œnk Œnk Œnk Œnk Añ4€>∫BAïN’>+¿ﬂAñ5q>±∆¶?Ñ27>NltC∂q        ˇˇøeJå           é√        A´ıU@GŒpA´ıU@GŒpŒnk Œnk Œnk Œnk Aµ±πA#«„Aù$T?GaAèSÀ>ñéq?‰/ö>™dB≤“Ä         <2s‰   @       èßøËl>LGü   eäﬁh  1™   e  i¨@|"	ƒò%?πˆå}≈±•Œnk Œnk @üUπ∞Ê¸HŒnk Œnk Œnk Œnk Œnk   ø·æ-÷&˚ıøÍnÃ¥◊È3?πÎ)Xi  .ãU!£@+ûü	…@EŸÄJ <ﬁ@IaËÄXﬂK¿7J ÀÄ	        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk øÉµ  =LÃÕ=LÃÕ?fff    =Ö„B=¢#V=ni=∆3<¿Ã`Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A¨l@>Ë⁄A¨l@>Ë⁄Œnk Œnk Œnk Œnk A±«@ ÙkA¢U&?©]ÅAõ~u?ã∞?P*=ÍSHB0iD          øÉµ      ˚    ˙ Y           eäû—  1™   e  i†@VÕ3ƒ†Ê?π§¥w‹≤Œnk Œnk @üUùŸŒŸ¿Œnk Œnk Œnk Œnk Œnk   ø‚≤gyÇ£øÈ≈î‰ù5}?πôªoŒÜç  # sY@'∂êVw≠@F≥»∂ò√p@HZÊ‹çz¿7»às61æ        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk øbU  =LÃÕ=LÃÕ?fff    =â<=•ˇ|=s∏7=ux<≈caŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A≥3z@ÀÉúŒnk Œnk A£)@'Y?OØÕ=_Ò∞B∏¥          øbU      ^    êBI           eÑßÍ  1™   e  g∆@!çﬁŒñ&?∫ù(D,õŒnk Œnk @ü_C–µ?Œnk Œnk Œnk Œnk Œnk   ?Ô”≈:ÛÕ0ø;7äﬁ 6?∫ê‰2>  ÉÉO0@Ygıæt¿KRàˇr@¸¶Î†µ9@a∞©áÁçä   e  g∆Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ø™¶  =LÃÕ=LÃÕ?fff    =eK=ä÷M=K◊=à<•YŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @Òï97y)@”l£8„πÒŒnk Œnk Œnk Œnk Aπ@∞Az˜ÉŒnk Œnk A_x9®¿›@˛Ñ¥<Àª A]}”          ø™¶    .    ·ÙÅ           e˝î  1™   e  f•@ï≈Ù.∫Ê?∫õ2U{
+4Œnk Œnk @üYùD@uŒnk Œnk Œnk Œnk Œnk   ø·4â•2xøÍ‹ûï(Dã?∫é¯ˆcR  .£∂—≥@-wÉ+Ã¥;@EHïüz¡%@Jßÿ^}¬¿6√rq·¬y        @br>˚g>ãÑ@=≥Ê¿ç$@ƒ3Ñ@br>˚g>ãÑ@=≥Ê¿ç$@ƒ3Ñ¡Rß  ;Iùc936ë?+/    =:!x=agÅ=%xa<◊*…<ÜûŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A¨Y!>˙µŸŒnk Œnk Œnk Œnk ?íˆA>ü'äC&§         ¿· O  @  n    ù;µ        Aê‰Ï<„ öAî	y=˝≥¢Œnk Œnk Œnk Œnk Aê
+ﬁ=&hAìK=ã⁄æAõg>ß.8@9√5?/ïC/µ∞          =‚    Z    ù>;à¡>]ƒDŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aèıƒ=˙ÌYAçux>&= Œnk Œnk Œnk Œnk Aç‹Õ=£∂´AéìÕ=…Ù5Aé *> µ9?—S>“ËC3JÕ        ˇˇ¿8FR      ˆ    ‡=í„L=}tÙŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A±$ñ@ƒ/?Œnk Œnk Œnk Œnk ?@æK>EfCñÛ          ¡
+óñ     B    ﬁ¡L>ÃÎoΩ±¸„   eu∞ñ  1™   e  c‡@W|N{?ª}K%†PŒnk Œnk @üU±`ı·ÈŒnk Œnk Œnk Œnk Œnk   øÊ¥iœØù•øÊIôÃs˙‡?ªo∆˛Q≥  ”S@dí@4L÷Y@JÆ¡öÛœ1@CôF ”|¿8ç±O∞        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿H[]  =LÃÕ=LÃÕ?fff    =1òó=Wû=‚<ÕM<ΩŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A£Å>∫OA©
+?Û,vŒnk Œnk Œnk Œnk AπíFAWÜñAü◊£?eÁïŒnk Œnk ?5Û>ã1xB%(m         ¿H[]   @  ™    ˚mf           en≥  1™   e  a≥@í€m©‹?ºÄK+¬Œnk Œnk @ü_Cú
+◊\Œnk Œnk Œnk Œnk Œnk   ?Ô}„©4»ø¡∏”øbõK?ºq:ËÉ˙S  —ﬁ∫@V3tÙÚ¿IpUƒ6ú@)⁄DâØAz@aûãù"”        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿ÌŸ  93ºB93ºB?Èâ    =ñºÈ=∂ã+=Üã=.@»<Ÿ@”À8çM∆@ÿÄg8óﬂ5Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A+#~9Èü\A@˛`<gc BÌ          ¿Ï.8    5    ﬂ:        @æÒ8Cü@«_8]PŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A90AÆÌd<)ê@B˙≈…         @n¯ñ  P  O    ‡‚Sº∞A>®Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @∞≤≥8é|à@©y„8}Ò9Œnk Œnk Œnk Œnk Aÿ&"D˝lA‘eŸC˚”KA _˝:ŒÇAe;=ã‡Cj-          ¡˜∏    Ö    ﬂpü<Ò5>
+èı   ekØ  1™   e  `Ÿ@@∫∆¢x≠?ºd7ë*“ÕŒnk Œnk @üU±_Ÿ<Œnk Œnk Œnk Œnk Œnk   øÊÒ.ãABëøÊ}$˘Ë/?ºUS°Ô;  ”]ﬂ‰@
+¸≤ÿŒÍE@J˛ ê#ÇÈ@CFNÄ:¿8]D»Y˘/        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿]“†  =LÃÕ=LÃÕ?fff    =˘É=/êv= ·È<ßó8<P√vŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Aº	Aà0EŒnk Œnk Œnk Œnk ?uÜ9>≠ApCÑä          ¿]“†       v    ˙ö◊           ei}`  1™   e  `Ñ@Uî¸¢I?Ω=åÀŒnk Œnk @üU±b K˛Œnk Œnk Œnk Œnk Œnk   øÊµ∫`rk—øÊ@E!˜)*?Ω?¨
+Ú‹  ”S#)@¿s¡@@J–Lˆ¸∂@Céi≥ıñB¿8Ëy@        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk øõ7ö  =LÃÕ=LÃÕ?fff    =Àp=öu<ÍT∏<òZ <=»ÀŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aª √AÅ9–Aª √AÅ9–Œnk Œnk Œnk Œnk A±jΩ@¶2A®@P¢Aß·˜@Ñ∞É?bÑ>‘«\BW:≈          øõ7ö      R    ˙N           ePÄ  1™   e  Yê?–≠x%tGx?øåÇKE]ÁŒnk Œnk @ü_´'Ôõ‹Œnk Œnk Œnk Œnk Œnk   ?ÓØeJã=˘?–]L.N£»?øx¨≠^  Ö≤À¥@_•~/o9±¿K‡@>:¢˙¿#µÅ˚MD<@aä•Ñ†ºÅ        Œnk Œnk Œnk Œnk ¡rD ¨ˆŒnk Œnk Œnk Œnk ¡rD ¨ˆ¿Iπ(ˇ˛<›g…>˘¡>˘¡    =âñú=¶ûî=t°Õ=V<∆ èŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aç2ª>Gë"Aç·K>ÑÖ€Œnk Œnk Œnk Œnk AèNò=¡ÇAç_ =ºîiAçÀ¨>0VP@Qòå?ß$Cƒ¶         @y≠ï          	•        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A’XQD ¨ˆŒnk Œnk Œnk Œnk ?Eñ> â§A„n>         ¡ΩM  @  B    óm>∏ppΩ_çp   e"B_  1™   e  L‘@8∫]?¡‰ÆkemŒnk Œnk @ü\∏¥B√Œnk Œnk Œnk Œnk Œnk   øÊ÷SØ»“]?Â˜≈ã‘ı√?¡’—^É:  ”ÿÕÖ∞@k≠w∂Ø@@í£7§˘¿H HpJÅ¿4l;¶©        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿≠9b  =LÃÕ=LÃÕ?fff    =[(∆=Ñ≥p=B’%<˝Y<ùÀpŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AO≥Î<ejdAO≥Î<ejdŒnk Œnk Œnk Œnk A¥ÅA¥ÊA®zw@ töŒnk Œnk B2}f=2†`B?Zˆ          ¿≠9b      √    ∏H∆           e∂;  1™   e  KX@¡≈·¶ÜÈ?¬Ö9ND$Œnk Œnk @ü_Z.tˆ@Œnk Œnk Œnk Œnk Œnk   ?ÔÜ•@ìäüø∑ƒà∑'{?¬t≤´îXF  ¢¶√î@Wv ◊&2¿I5Uê‚ï@$åa"ê6@ab\r}‹        Œnk Œnk Œnk Œnk ¿&ù@Aß|Œnk Œnk Œnk Œnk ¿&ù@Aß|¿‚˚:  ;I‹;I‹?~m    =Î«r>√•=—õå=àG√=)¬ÕŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk A∑ˆÎA> 1Œnk Œnk Œnk Œnk AûÜa>Ì_,A¶Œ?ƒtõŒnk Œnk ?qTç>Ø”ÿBÿfá         ¿L≥∆  @  ¡    ˛ìp        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A≥Z	AsáŒnk Œnk Œnk Œnk ?Iﬁ>mÑBK0           ¿⁄¶$         ˇúΩÆ_`>à"Ü   eß0  1™   e  H@@ƒ•¯xN<?¬ñ
+ºûgŒnk Œnk @übÏ5`!'Œnk Œnk Œnk Œnk Œnk   ?Ôà$;\P£ø∑K·≠¸Ä?¬Ök<ÿØ  ≠`°˛@WÖ“H«∞¿I:èÊó˜ı@$:$®•|í@aaâdY 5        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¡
+œ  ;I‹;I‹?~m    =›Ø8>:›=≈’=Ä"4=ú·Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AS°9-Z˘AìÃ9aEKŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A"§q9§®SAzkU=éÅpA˘‘6          ¿õ>∏    v    Œ»€        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @Èˆh94ı@Í"\95áHŒnk Œnk Œnk Œnk AæÁØA˛ÑHA∫<¨Aµ<Aü:	}A>»'=∫∫∞BF∏®          ¡Ωß    ]    Ô?:Øe*=√>s   e ˆ’t  1™   e  Aü@¶"‡Py?ƒ`Tù…/ÂŒnk Œnk @ü\’WùõéŒnk Œnk Œnk Œnk Œnk   øÎ§∞∂9Ò ?ﬁöÜ√v(?ƒJS±\¯  ,∆Y˚@l¨@ëT@GR~Æﬂ÷Ä¿@Ω9“ŸÃæ¿5ã]yöáx        ? ‡=≥¿vøL†=˛äW¿ïcÿA¥¿…? ‡=≥¿vøL†=˛äW¿ïcÿA¥¿…@YÄö <
+ÿı?{
+ä<2Ñ®    =%|=õy<Áf}<ñs<;i.Añ£X=üïuAîL=È˘Œnk Œnk Œnk Œnk Aò≈$=ä2≥AóîG=ãâ'Añ¥,=Ÿ7?”ê?OÊBÃ›        ˇ˛Ω&	á    &    ÑŸ        AèÚ?=]á∑Aå[=çiLŒnk Œnk Œnk Œnk Aìƒ5=e„Aí°=e|ûAèÓv=èÄÃ@D°? ÓB∞<         ?ÛkÀ    $    Å€aΩKwÊ>ΩŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AèÿÃ=ˆª>AçÌr>‹Œnk Œnk Œnk Œnk Aóﬁö=„Aï â=ﬁYòAê«n=‰¸Õ@}‹?jrBü1?         @|îD     €    C˘ú=ò°¶>è‡"Œnk Œnk Aãr=ƒ∫∆Œnk Œnk Œnk Œnk AΩ7êA¥¿:Aìft>^âAÉ4-=rm@ûlD>•ˇ–ABgé          ?}<¿     h    πÔ?ªiæ»   e Ò¸_  1™   e  @q@	JÈÄE∂‘?ƒîº—KŒnk Œnk @ü\Æ‘V™˙Œnk Œnk Œnk Œnk Œnk   øÔî∑ˇ10røî3*‚lÎ?ƒ~Œƒ+  Ç>Ω|@p–Ä—wÎè@Q<=Èÿı¿p‡Ê&ì5¿7DUÚº_=        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¡KL  =LÃÕ=LÃÕ?fff    <•ˇú<….<ìíô<?‰Ì;Ô	ÆŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AëÁh=Ô·≥Œnk Œnk Œnk Œnk Œnk Œnk Aπ†ÈAú• Œnk Œnk Œnk Œnk ?5Û>B8B∫®2          ¡KL @    #    ’aZ           e °.1  1™   e  +Ó@-r8õΩ?À|ÉõŒnk Œnk @ü]uHÉb>Œnk Œnk Œnk Œnk Œnk   øÈ@à0Y"åø‚oNΩÕ!u?ÀFb†Ã˝  Ÿ $'Ò@
+Wá…DÓr@O—Zç∫<@>V’¶L{¿24ÊSı,        Œnk Œnk ø‡e`>Ú‡y¿fÿ@·LŒnk Œnk ø‡e`>Ú‡y¿fÿ@·L¡KÎè  93ºB93ºB?Èâ    <‚,=Êq<»ˇy<ÇÆΩ<"…∫Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aì˘B<≤5∂Aî'“=óÆ†Œnk Œnk Œnk Œnk Aí¸ô=xﬁÊAìÑ”=°°÷Aëu9=ÁVŸ?5Û9—® B¥ª          ¡j#    9    !9        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aë;∑=Å	«Aípl=øXeŒnk Œnk Œnk Œnk A°Ô>‡WAó„%>>≈ÛAåìè=¨oY?5Û>◊¿hB≥ıÓ          ¿ìˇ]    ¬    ,úª„ñ~æÆŸàAãD¡=›3AähÌ=Å$kŒnk Œnk Œnk Œnk A¥/ @‡ôFAá„ù=YÖ˙AàµÔ=Àû?5Û>ÿ‰B≥ı          ¡…e    0    (ççΩµseæé›Í   e s£  1™   e  @¥ﬂ¢!1?–+ÁΩu%_Œnk Œnk @ü_Q;RiŒnk Œnk Œnk Œnk Œnk   ?Ó˘BÖﬁ’›øôp&vÚÌ?œˇ¸ e˛  s@—ë@Y¨ÁQ_πS¿G∑êˆÒ@7æAΩ@`ù‡r©m√        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¡O0  93ºB93ºB?Èâ    =¥Å=,–‹<˝∫À<§˜ì<M~œAÎ9" ïA	Ûf92PŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A<6û<·  C17          ¡k@    ¶    Œ»å        @ﬁ˙}8†AÊû9øÔŒŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A-™*9ıõÜAùQõ=y AÛÅ„   	      ¿SìÂ 	 P  *    À˘’æ*Q ø(ëºŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @”Y8Á.@ ï‹8 5cŒnk Œnk Œnk Œnk Aœ|°Ccj-A è«C a´Œnk Œnk Af$E=_∞B*âã          ¿çq8    h    πì˝<ˇlæøTﬂ   e sM˝  1™   e  Û@ÎEö]¶e?–36møñLŒnk Œnk @ü_LÈ>.Œnk Œnk Œnk Œnk Œnk   ?ÓÔ£œﬁÌ∂ø™x|≈kˆv?–.·æ  „∏ö@Y(7’óË7¿FÀ‚÷„úé@5qC@`õx%~Z        Ω1 >¬µﬁæÒÈ@?®Ü¿(Û¯A´◊DΩ1 >¬µﬁæÒÈ@?®Ü¿(Û¯A´◊D¿œ˜Ÿˇ˛>ﬁÇ<ˇê?¬¡    ==÷=dˇ=(u<⁄òù<à&]A°=.>àz°A¿AãÑIŒnk Œnk Œnk Œnk A†q>.\uAüìò>Nî¡A™
+π?ûı#@‘Ù??Å˜B´Å        ˇ˛>ä¡∏      k    ŒΩ        A°]Y>ö fA†ƒk>Ï aŒnk Œnk Œnk Œnk A†vÛ>Æ@A£⁄s?"†KAûÌﬂ?+8À?≠ñ*= ËBB˜'       ˇˇ¿P$  @   V     )òøe]ì>≈M]Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A§>ò?¢Œ@Œnk Œnk Œnk Œnk ?Lª}>=û‹Cû         ¿ä≤)  @   O    ª˝Dø&7?∞™!Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Aπ]A´äŒnk Œnk Œnk Œnk ?∫£¬?(˜•C*@~         ¿“Aí  @   c    ª!Møπd?∏   e h<‚  1™   e  Ü@∆ÆQ®M?—‚r”µŒnk Œnk @ü^˙‰Ü(nŒnk Œnk Œnk Œnk Œnk   ?Óøzh⁄høµ˝çÀ¨Q,?–⁄f2ı¿  ñßÎÆ@Xõ+U	œ1¿F/ Å@#S5>ü@`Äô+sg        Œnk Œnk >§6 >Ñ¡k¿õYàAÊ¨ôŒnk Œnk >§6 >Ñ¡k¿õYàAÊ¨ô¿p)¯ˇ˛>™™´>™™´>™™¨    =W˛= D´<ÎN†<ò˝F<>ì1Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aò`≥=˝DmAíî∂=˛n«Œnk Œnk Œnk Œnk Aóòë=˝^≠Añ*a=¸'AìÂ>)L$@/? qDC3NÛ        ?û\  @  d    5ºY        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A¢Qb@o⁄Œnk Œnk Œnk Œnk Œnk Œnk Aïπ>iV≈Aõ2“?"A†	õ?ÿ˜π?ö˝4>¿©LCÊÜ       ˇˇ¿Z√9  @  P    ∫á¥øï-BΩç»&Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk AªﬁAÊ™¡Œnk Œnk Œnk Œnk ?n∑π? _2B√í≈         ¿ä≠  @  ∞    ªT?1Ôô>ˆ'C   e R=Ú  1™   e  ?@ aÛÖ[Î?◊ëKJì¢]Œnk Œnk @üc† É‘EŒnk Œnk Œnk Œnk Œnk   ø€jO$W£?ÍÖñõ#Ï"?◊	‹8√ˇ  îËmX^@hÛ<[4 @5—NVÃ¥T¿M”¨¬ÉÌÛ@)‡q8o        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿J]˜  =LÃÕ=LÃÕ?fff    =QÄË=}µs=:?ß<Ú/§<ñ◊≤Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aò⁄Ï?öcAç}Ò>ªŒnk Œnk Œnk Œnk A±∏û@œ?ÙAàˇ=äÜŒŒnk Œnk ?5Û>◊◊ÍB≥ıÓ         ¿J]˜ @ P  Y    ôÌÇ           e p¥X  1™   e  #?–„Ö’<X?–wTgÑŒnk Œnk @ü_π„ÀëŒnk Œnk Œnk Œnk Œnk   ?Ì‡QÒ•a?–$⁄
+rH?–H˙Ω}  º¿@_ç7ﬁ
+¿H	Z÷…í¿#ê¸3@`ë(`+?        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿øúì  =LÃÕ=LÃÕ?fff    =•>á=»\=íÊÚ=?π<ÌÛ§Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A∞‘Â@˝˙‘Œnk Œnk Œnk Œnk ?Ä~®?ïHCÿÇ         ¿øúì  @  ô    «ì           e{-æ  1™   e  ¶s@RÔír’:øe…?ç>ØŒnk Œnk @üU oõ"Œnk Œnk Œnk Œnk Œnk   øÌ|ÃÅfvøÿ€ßö¢ÒÇøe…=ﬁdpi  
+$n√î@t?mw°i@Nâªh&·@1⁄¸`…”∆¿@T}ÆZÅ        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk øŸ¨É  =LÃÕ=LÃÕ?fff    <Ã@}<˜Y\<µîw<l~<∑Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aµ®AQ+Aµ®AQ+Œnk Œnk Œnk Œnk A±bsAÈîA¢≥I?¸úêAôRo?¢å?PΩÓ>„C}⁄          øŸ¨É      Ò    IGË           ez3≥  1™   e  ¶h@£ùo09ôøIà‘∫PcvŒnk Œnk @üUÕSx®ÜŒnk Œnk Œnk Œnk Œnk   øÎS?#áÌø·V–q´îøIà‘éı7U  
+&‚;@uIn.F È@LÑ¡Eî°@;FI|`l¿@Fn∑”"        ?ö∞>
+A¿>¸œÄ>(ÁK¿πbÑB[¥Ñ?ö∞>
+A¿>¸œÄ>(ÁK¿πbÑB[¥Ñ¡Gﬂl  7—7—?˛¿    = =70=Y•<Æ≥Y<YûøAü®=ñsçA∫∆@NXRŒnk Œnk Œnk Œnk Aü•Ò= ËpA•N¿>wA$Œnk Œnk ?{ä£>'Ì,Bú‰h          ¿›bV     &    NI        Aòï’=êv∂Añ∫<>öjŒnk Œnk Œnk Œnk Añ=ªŸ˙AñW=ı}iAñ…>q∆~?⁄Ò˝?$[ÑB•<h          ¿ı‡å      ò    N∫jæçö†æFF)Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AñK=‚Ö,Aï >myŒnk Œnk Œnk Œnk Aíÿ>aAî1r>Lv#Añ9|>◊ì+@
+Q>Ú§ºB€,´          ¿ƒd¶          ˛7ï=@PKΩ‚\Aö3ö>¶°%Œnk Œnk Œnk Œnk Œnk Œnk A¿iyB[¥WŒnk Œnk Œnk Œnk ?ò§\?'B/          ¿á÷*      s    ˝∞êæãÇçæké-   eb˙´  1™   e  ¢;@ Z©áb?a7+æŒnk Œnk @üU {∏)®Œnk Œnk Œnk Œnk Œnk   øÏ∂çò‘¡4ø‹@ØÙ‰Yñ?a6=·§Ô  òfÀ_.@t®k’^æ@NX∂“x@52B…†F¿@/õØ™m‹        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ø√ë)  =LÃÕ=LÃÕ?fff    <⁄∂ˆ=ná<¬o˜<|’ç<y~Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A≤—WAXÓA©à0@ÄmAó¨Ô?vN£?c\.>CÙpBº˘€          ø√ë)       Ç    Zı           e_b›  1™   e  ¢	@.™æsêü?e—@]aÎ∏Œnk Œnk @üUÅÌ,€NŒnk Œnk Œnk Œnk Œnk   øÌ≥ı€›{Gø◊œM!;ï/?e—>¨¨+Ω  Ñ— ˘@t"HtÛmá@N÷©„‚f+@0◊:Òd•¿@+ó∆YZ        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿v/Ã  =LÃÕ=LÃÕ?fff    <…Ã⁄<ÙaJ<≥f<iGÚ<K—Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Aº_mBX’Œnk Œnk Œnk Œnk ?z[A>Â,ByÅ         ¿v/Ã   @   ¢    brB           eMƒÔ  1™   e  û	@
+˛‡√>H˛?oØÖ+˘Á·Œnk Œnk @üU«Át.2Œnk Œnk Œnk Œnk Œnk   øÔ"◊∞·øÕâÉ-A…€?oØ˛}^c  Übª<@rˇˆ⁄%œÒ@OãplŒÑ@ Ø »l«k¿@#Tä        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿ =ø  =LÃÕ=LÃÕ?fff    <µüÚ<€Úó<°vÂ<QıP<≈Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AêÁ=D£Açµ>)ãŒnk Œnk Œnk Œnk A∏b™Aì^°Ayà‚<”Æ≥Axí§=:Nf?5Û>6<Bîå          ¿ =ø       
+    J#           e0–  1™   e  åï@‡h™Î9?óﬁRÈy¬ñŒnk Œnk @ü[ÿªAdŒnk Œnk Œnk Œnk Œnk   ?ÓleÚWFø”»‚Qπ
+¯?ó›≈EPÅË  stΩÈ@QÏ˙àC∆¿Hmê|ÜkC@7pDêÍ„@bAë˛@         Œnk Œnk Œnk Œnk ¡ª‘D”1hŒnk Œnk Œnk Œnk ¡ª‘D”1h¿  ;?,=VÛQ?q—∫    =Æ¨=“œ—=ö¡˛=I<√<˙≠!Aúu=˘ùAõN9>52Œnk Œnk Œnk Œnk Añ/ƒ=H¯ûAô´Ô=ßOjAíç≠=Å$?5Û>≈‚LB≥…         ?Ø        )ó˝        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AèΩ˛=π)Aéß>=÷^Œnk Œnk Œnk Œnk AêóÜ=¥øêAçÈ#=Ø˙^Aàã5=≥á,?]à¥?}p§              @DQ¨    P     §k∆?Q›mæ£ÊŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A‡upD”1hŒnk Œnk Œnk Œnk ?bπT>‹ÄJBWò$         ¡Ê  @  q     ¶G?9ñø/πT   e*%  1™   e  åì@ÕCÖâzA?ñ«ˇ•∏Ü7Œnk Œnk @üW3ﬁŒnk Œnk Œnk Œnk Œnk   ?Ó<«”ﬁ>ø‘Ê!€l©?ñ«Ñ~)ÀX  Ï#˛@Q†Kœ5Z¿HÍ,§E◊@8Œ,&@bCTN£‘        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ?‘»Å  =LÃÕ=LÃÕ?fff    =õÀ0=º™ä=äÄ'=4˜<‡WÀŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Am≥=¨…Ao˘= ÊŒnk Œnk Œnk Œnk Aªu˛Aæ˚Aî'X>©LA|ı@=NçA
+o≤=ˇ≤‡BúE          ?‘»Å      ì     æ∫           eú4ó  1™   e  nÅ@ç”öºÎ?∏*ñó'´"Œnk Œnk @üUπ∑;ÖŒnk Œnk Œnk Œnk Œnk   ø·K¢ì_Ú=øÍ¿˝NèJ?∏!gd∆πí  .≠æÛL@+í((dn—@ESrú ·j@IÂ`òòÇ{¿7ªÙzßH        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk øÕÃ†  =LÃÕ=LÃÕ?fff    =sÇL=ìq÷=Xzø=øâ<ØSìŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AøÕ÷A∆ynAøÕ÷A∆ynŒnk Œnk Œnk Œnk A¥´F@ÒHÃA¿t9Bı¥A§<@(¢K?Pz∆>ŒB6(¥          øÕÃ†      Ë    ˝           eì"4  1™   e  l@e£i¿4?∏ußï^Q.Œnk Œnk @üUû0µ^øŒnk Œnk Œnk Œnk Œnk   ø‚Tq@8’zøÍCå@5:?∏l!»ø\◊  !C??í@(_y/∑§@FHÃÂ∏≥7@H«–’-<∂¿8
+⁄ò$?        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿{^L  =LÃÕ=LÃÕ?fff    =w,j=ï©ﬁ=[ºª=›≈<±˜Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AÄ÷$<s:.AÉçE=Aç[Œnk Œnk Œnk Œnk Aº”nA¬å…Œnk Œnk Œnk Œnk ?5Û9—® B≥ÙE         ¿{^L @ P  T    ëq“           e\SM  1™   e  \ø@∂5TUb?æÃ+yUwŒnk Œnk @übˇ–˚î˝Œnk Œnk Œnk Œnk Œnk   ?Ì»˚‡ªßø÷à·Ói€?æπJ´8ª  7…Ú.ˇ@R¨Qj≥ K¿Eô /@@9(zNÂK@a|.¸Ù˘        @C]@>#íøWŒ¿=îDª¿±µ‰A®ÈJ@C]@>#íøWŒ¿=îDª¿±µ‰A®ÈJ¿–¯{  ;œø:`6?+/    =‡Â´>,€=«Ó˛=Å˝ï=!ÌA•†D>ÀÂôAß!>˘u_Œnk Œnk Œnk Œnk Aü‚ﬂ>!‡<A¢&Y>à@ØŒnk Œnk @#ü>£….C0±‡          ¿ uì          f›ª        Aà<µËÎAÖõÖ=™ãŒnk Œnk Œnk Œnk Aáw7<ôê!AáW»<ºŒ˝AÖè=L@t!∂>˜¶∆C&NZ          >´hÙ          jSø$?ìáÅŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aç*∑=ΩuµAã5>»JŒnk Œnk Œnk Œnk Aé5≠=è6IAç0^=üô†Aå`q>\ù@A≈?˚C2…÷        ˇ˛>ö°ä H         ]œˇæè¬?I HAó}Ÿ>Î‰GAó}Ÿ>Í?CŒnk Œnk Œnk Œnk A∫£&A®ÈŒnk Œnk Œnk Œnk ?H¢=πW–A3~          ¿Î‹ H         ]∫‡øD?ò≥≤   eX¨™  1™   e  [ç@Ë–`d?æ™¬πôZŒnk Œnk @ü_ZN@†Œnk Œnk Œnk Œnk Œnk   ?Ô≈C‹Ç÷≠øhg€Xí?æóJü∞2¯  Ñ$'@Y,Ï≠¡¿Jﬂ	3”g∫@â˚/˙ N@aì~àæÀ´        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿‚3Æ  ;I‹;I‹?~m    =~(f=ô‰~=aÚ@=Á9<∂˛^Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @“AÁ8Å±â@“AÁ8Å±âŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A®ƒC<§¯ BLß   0      ¿≠⁄3  P   î    ˛?        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @Ã 8‰YÌ@“Ò8˚#¯Œnk Œnk Œnk Œnk AºÙ™AÕ3ZA∑‹Aëb]A1â:ÑjˆA@˝Å= `B#©i          ¿í°     }    ˆŸƒΩ3%=∑N≤   eP∏H  1™   e  Y°?∏ë¸IdÒí?øS˝Â•êuŒnk Œnk @ücx&>bOŒnk Œnk Œnk Œnk Œnk   ?ÔùP‘™äR?∏Y]ã∆ü?ø?˝>>µﬁ  çDr™@[ÖZwnóH¿Kèﬂº]Œ)øﬂ¥?¬ñ;@aèû·’€K        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿áıi  7—7—?˛¿    <˝Ëò=Ω‹<·πá<í¬X<6–n@ÿ“8íx"@ÿ“8íx"Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A*≈q9‡"A[m=\A0B¶Ωƒ          ?Cîà    i    L'        @›à¯8ìO∆@›à¯8ìO∆Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A
+nü9 oôA°Ï=…`Bñ)          ?ëÃk    ´    9‘<¨)æææRŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @√à 8Üê“@»y$8ël Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Aâ˝=N¥ B€≥!          ¿Á‚r    œ    £—=÷ËæµTë@ºzå8®û)@ær‘8≠’ Œnk Œnk Œnk Œnk A∑≠#Aﬁ®Œnk Œnk A?Û9ºÒOAYG=2íPB≥Â          ¿I‹    {    Htª¸w–Ω3ç¶   e kM]  1™   e  Ä?·EWâ?–‘ã¸ãﬁŒnk Œnk @üc4Ë¿™’Œnk Œnk Œnk Œnk Œnk   ?Í¢úïi•€?ﬂT¬V≈L?–£œóë  ó∆rÎ@bb…¬I∑¿F=Ü®ß¿8ÜìÔAb<@`\∑2!¥õ   e  £Œnk Œnk Œnk Œnk ¿≠ Cn4	Œnk Œnk Œnk Œnk ¿≠ Cn4	¿˙?Ê  7—7—?˛¿    =í{=±h∑=Ç<ò=)Z<“ı@¡àZ8SRv@√¢Ç8Z-Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk AôI=HB4=S          ¿ªo÷    :    €ËB        @ø	°8<Ä“@∂Àm8&sæŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A÷<û=Ω–BaSH          ¿)<    ö    ◊∆æ>yøZdŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk @≥jä8RÛ<@∂–∆8^'ÍŒnk Œnk Œnk Œnk A•‡‹?}ÑËAûè@?CtŒnk Œnk A¶ W=ÄBÙ«ì          ø√¨H    =    Ês>,Üø«´0@±ôa8åMO@®[Õ8tì·Œnk Œnk Œnk Œnk A—!\Cn3ÇŒnk Œnk Œnk Œnk AÉtÅ=oÄ–B‚≥U          ¿≥ôG    õ    ÀÇ>W≠øâ¶   eπ’"  F
+   e ƒ@.Œé>ßì?ÖôÆâ‹ÄŒnk Œnk @ügòŸ9Ü
+Œnk Œnk Œnk Œnk Œnk   ?ÁØkæSøÂÑ+£ΩX&?ÖôîK"ı˚   ‚Ô»$@Iî’ºÇ—¿>GøhO@G†∏«”f@bSÇ‘m~¥        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk º§q   =LÃÕ=LÃÕ?fff    =⁄Pﬂ>0∂=¬5=|_â=/˝Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AâbÂ>Fß†Aâút=ﬂŒŒnk Œnk Œnk Œnk A≥òA&¥zAà˙= ¢ÀAày◊>-‚?5Û>◊.ÑB≥∫‡          º§q     ∑    ;á®           e˛Kƒ  1™   e  ä\@›~±†é?öYE≠ae5Œnk Œnk @ü[∆
+À_Œnk Œnk Œnk Œnk Œnk   ø„¨7"Òn∏?È9°∫£Ñ?öXá"aW„  í{çÎ(@kÚÎÙä‘@6‰é„ãX¿LÇ¢?ˇ„ï¿= w`Ÿ]        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk BÏKk  ;I‹;I‹?~m    =·=;è=	∞<≥
+R<_®Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AyXø;˙ªAuhÎ;æŒÑŒnk Œnk Œnk Œnk AÜMi<}%≥Aœ	<yAÇ≈T<±0Ü@¶´å>Ø∏§C-¥˙          C&ï        [—ù        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A}Ë=*q4A~ñ<Ù„,Œnk Œnk Œnk Œnk A√ÉQBeŸñAÜ›ˇ=ç‡AåÚN>Å`@(è‚>◊MîC3ÅO          ?|O     ˛    [ñæ¯=Ñ•n   eúIó  1™   e  nÑ@}W83ä9?∏Jn˘8Œnk Œnk @üUπ≥
+ÉQŒnk Œnk Œnk Œnk Œnk   ø·π „øÍxÇ|Fiù?∏AJ≠Wµ  .µWõ«@*Hcr9|@E∏pãUˆ@Ip=‚y‰Ú¿7›E'…Ú        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ø≈Bä  =LÃÕ=LÃÕ?fff    =dö<=äk6=K:D=!⁄<§òŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AºõA~πKAΩø’AõÅŒnk Œnk Œnk Œnk A¥Ñ˝@ÒÀaA¢Q†?îVîA†„Â?Â∆È?lè°>ã#@±µå          ø≈Bä      ∂    ˚˘œ           e«'∆  =Ä   e  ·Ñ@
+C˘yâøüñï¯wÈ5Œnk Œnk @üe0ûå XŒnk Œnk Œnk Œnk Œnk   øÔ™Øq˛Êvø¡ˇB-ﬂÅløüïM©*…`  
+Û@Éﬂ@rR(©QÒz@N^Ã¿â§@@ÆL’Rµ*¿A"è˝ƒ^r        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¡[∏  =LÃÕ=LÃÕ?fff    < È<ıπ{<¥c+<jêÄ<sŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aëé6><∏^Aëé6>â≥'Œnk Œnk Œnk Œnk A∑–yAíØÖŒnk Œnk Œnk Œnk ?MO>™Ÿ>B,€*          ¡[∏ @    ;    4π}           e¥éÂ  =Ä   e  ‹â@jB	rAû?~ÃâÓOøŒnk Œnk @üeAv›7XŒnk Œnk Œnk Œnk Œnk   øÓ¥ß∫“BËø“Ó+âÏÅ?~ÃvËËHç  ÜA«6°@sjy=ıˆn@OãA‡‹M@&∞˘E¨ø¿@¡h7y        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿µ¬¸  =LÃÕ=LÃÕ?fff    <û~…<ø<åÊ¸<78t;‰;±Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AmE–<ÀãAuQ¯<í2ÙŒnk Œnk Œnk Œnk A¥IëA	˝TAìK°>yV∆A{+◊=G@m>—ídAÚé‚          ¿µ¬¸ @   1    <z           ewüN  F
+   e  ıö?üw ›Éè?∏úlË{áUŒnk Œnk @ügΩâUŒnk Œnk Œnk Œnk Œnk   ?Ô÷R°kE.?üQUuõ:?∏íπèı
+  ÉdÆëV@Y≈Z7%£˝¿K“X5ÄÂ@	À_¬≠@aøt¬ÿØ⁄        Ω€À =SÙ#?ç@=ï?Î¿òf\A¥áΩ€À =SÙ#?ç@=ï?Î¿òf\A¥áA˚ªÆ 936ë?+/;Iùc    = l=6õà=é<ÆPf<Y#}A_ü–;§WAaÕ;vπMŒnk Œnk Œnk Œnk AêI„<≈ËTAã∫L<í•ıAÖ^<mò=@´Ú¢>Ö~¶Bø         B(≠ö     ƒ    í»ò        AÑê<‡≈“AÉX¸<ÈY¸Œnk Œnk Œnk Œnk Aë%Æ=;o Aç∑!= ˛nAÖq.<ÁÎ@I}>å~B®6®         Acrß         å´©æqº˙=ÌVYŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aö‘3?>Añ’A>∞˚ãŒnk Œnk Œnk Œnk Aå…D=hP$AãÍ=vVıŒnk Œnk ?5Û>ÿSDB¥
+         A3Z:     p    ∂æcË«ΩhÅçAw{/=ùXòAqﬂ<ià√Œnk Œnk Œnk Œnk A≤‚€A≥øAá»(=õ	HŒnk Œnk @S#j>Œ€HCa2          ¿ï)%     :    {<WÛÍ> l‡   e»9  =Ä   e  ·ÿ@
+z0Ú6ˆ˜ø°æµ†ÈŒnk Œnk @üe0ñd»OŒnk Œnk Œnk Œnk Œnk   øÔá∏SF]ø≈f+>-Zø°Ω#¿oã  
+≈@rÖ"°—oq@N\4H\@ÇéÖ¢:¿A>¯“I¬        Œnk Œnk Œnk Œnk ¿Ø∫¥AÕKŒnk Œnk Œnk Œnk ¿Ø∫¥AÕK¡$«ˇ˛>˘¬<›g >˘¬    <Í˘ó=G <–‰ã<á–∆<).ñŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aãp>^≥Aâ}Ô=€ı‚Œnk Œnk Œnk Œnk Aêﬂ=‰ÓAí>+ÀAAèŸ≠>n‘)?=PÃ>Õ«Bs˝        ˇˇ¿R±     ⁄    2W        Aãh»=…3#Aãh»=˝ÿ9Œnk Œnk Œnk Œnk Aª˙åAÕÃŒnk Œnk Œnk Œnk ?öË√?JXC#ûÎ          ¡r      $    7¶>RG;?#Ïy   e3∫‡  1™   e  Q¶@?YÔJ;=?¿¬æ©∆.çŒnk Œnk @üYπ<?
+Œnk Œnk Œnk Œnk Œnk   øÊÊÆfä ÏøÂÙ‘´ª+.?¿∂~bñ ≈  ”Tœî@Ö¡$DÒ%@K\Ë·⁄=Ú@C3<Õ/ıY¿6Ë…úÁÀ        @H† ?ß†ØŒnk Œnk Œnk Œnk @H† ?ß†ØŒnk Œnk Œnk Œnk @¯:I  ;?,=VÛQ?q—∫    <‡¢=•4<«'”<Å|<!KΩAì¨C=◊|ÑAòô:=¢⁄±Œnk Œnk Œnk Œnk A≥òå?¶ÕAû;>pAî}==üä@|.Â>|ˇåBö“ã          A÷=      Ç    ¥à        AôÙ·>:(Aòﬂ>x¡Œnk Œnk Œnk Œnk AöÑà>BAòé›>òrAí8X=ÛAs?¥Ø/>Õﬂ∫Bëºl        @A®C  @   Ö    √Æ?[∑éø,´Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AÅ±π>%ˇ^AãÒw=Ûa¡Œnk Œnk Œnk Œnk A≤‚Ä@˜ÕbAë”1>]aÒAÅ$¸=l∫@ùód>†.LBØº           @·í      {    ÒÈΩæfê? ‡v   esÁ@  =Ä   e  «F@	5’éó0”?…®∂Nz5Œnk Œnk @ü]N
+ùÍ,Œnk Œnk Œnk Œnk Œnk   øÔ[ì©0zøÉt`°„√?…|ŒåsW  â›;”@pÅ|TqY¨@Q£(ªJ»›¿kÛñ£˛º¿4˚/˘™        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿q$í  =LÃÕ=LÃÕ?fff    <»7ï<ÚvÉ<±˛6<gst<(Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AVö;;+»PAV–÷;êfuŒnk Œnk Œnk Œnk A±$A¢ÂŒnk Œnk AèœF>⁄·n?5Û>ê0B≥ıÒ          ¿q$í     «    Îf           eœ5  F
+   e  …@“jÅNí%?∆Lwò+Œnk Œnk @ügÎg¸ÙeŒnk Œnk Œnk Œnk Œnk   øÏ⁄·<Wgí?ŸX·◊Ú\?∆0üx˘  6†˜@m	È'N@IƒnØ(¿¿<<„é˜B¯¿5'
+G)l¸        ?ŒÇ¿=Ó›€Œnk Œnk Œnk Œnk ?ŒÇ¿=Ó›€Œnk Œnk Œnk Œnk A1õ ;?,?q—∫=VÛR    =!ﬁ∑=DI=Á<ª(<i¿AíA>$ÒAë¶=‘£ﬁŒnk Œnk Œnk Œnk Aû£Ú=⁄
+sAòX‹=ã>4Aö¯]>,ÈP@)çX?88(B¡q%         @Ø∫    æ    Ûs        AãòÖ=∑òAä≤=´ìoŒnk Œnk Œnk Œnk Aëª∆=C0AéÍ§=8ÄAAé@‘=†…@ç„€?;"ÌB√ﬂï         ADV    >    ˜eÅæ•q¬æÌÉåŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Ar\\=áWAÖl	=àﬁÉŒnk Œnk Œnk Œnk AµàfA BÿAú≈? IÎAÜ°G=ö†§Açˇ=¡O‡B˝mΩ          ?∂gµ     	    ïuø§ºŸ>*3∞   e”,  =Ä   e  f@™È-í?— ônbËQŒnk Œnk @üdÜ*@ÜŒnk Œnk Œnk Œnk Œnk   øÏﬂÂﬁ÷ø’· πfE~?–Õî€ôÎ   Ωi·ù—@u®-<$˚@S ·Å?ìü@.^„SXÃ¿0∂Àmfv        ?}`=§ˇ©¿iS@∂	 ¿e˝0Ce—?}`=§ˇ©¿iS@∂	 ¿e˝0Ce—A}Ωˇ˛:…ı¿>ˇõ>ˇõ    <¨ß%<—*<ô}
+<Gñ6;¯û≈Aéµ=ê≤√Aç€)=êÔüŒnk Œnk Œnk Œnk Aõ9ø=É´ˆAòÊ=n^üAîw=m7@]ø?)¬AÆÓ         @Ò'©    ”    ªi∞        Aã—’={<∏AävÍ=XJŒnk Œnk Œnk Œnk Aó‘=Fﬁ5Aî(D=6GîAê2≠=V4v@àõ?2\pA[@û         A}6        ∏nÀ=ÚŒK>≈ùÒŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A|_m=‹ïmA|_m=‹ïmŒnk Œnk Œnk Œnk A¥07@∂MAúOË>ÁX4AÑ}g=\Oä@˝% >K.ËC,î          >œ“\     ”    ·óñæÛŸ∞?‡:xA}¯&>%©ÈAàsÁ=∆πÈŒnk Œnk Œnk Œnk A–Ô›CeøAñ˚>ø?mAÅW9=lÚ@πÙR>0∆ºBƒÊï          æÚÑe     p    ·/æŒö;?Ÿì¥   ebw  F
+   e  …›@UL¬ Ì∑?≈N#ÑO™IŒnk Œnk @üe0n3¨‚Œnk Œnk Œnk Œnk Œnk   øÔfxBº˝v?π0çÅ]‹?≈4˝L'È  Y≤¨è@o–∑aîÊ@PJÆ≈s¿%'†Jª¿6Ã  Á@b        Œnk Œnk Œnk Œnk ¿©%H@Ú1üŒnk Œnk Œnk Œnk ¿©%H@Ú1ü@©∫_  ;I‹;I‹?~m    =n=Ωc<Ê k<ïü<:aŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AÖÅÕ>	AÖüˇ=˜]~Œnk Œnk Œnk Œnk AáZ$=»AÖ·Í=!F-A≈Ù»B·¡Ê?·B?}p§AòTï          AS      ‡    6…¯        Aj 7=ÉüDAvz¥=ë;¢Œnk Œnk Œnk Œnk A±£v@Ú0ÿAö]4?"6Aâra>&5VBñta?k˜ BøÏ°          ø™x.       í    9ŒøA∂ø≠øå   eÅª  =Ä   e  Ã @£¯¿Iû#?√+V3ZìåŒnk Œnk @üeeı˝¯›Œnk Œnk Œnk Œnk Œnk   øÏ¶∑WÀ‘ø⁄ﬁ˙b›˘?√{^•  öÍ¯ ò@u—ûÿ5≥@Qœ`nh˘@3„E;<V¿7^‰ãƒä        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿¯Dû  =LÃÕ=LÃÕ?fff    <ﬂé≤=]0<∆æ<Å7X< ˆŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aï++>©¿âAï++>ÀÖÓŒnk Œnk Œnk Œnk A¿&|B.»Œnk Œnk Œnk Œnk ?Ü‘…?Ò|B„vl          ¿¯Dû      ã    z=≈           e¬Ã  =Ä   e  À∫@¨º|?¬ﬂ€ R√Œnk Œnk @üe0bñ€πŒnk Œnk Œnk Œnk Œnk   øÔ k≈`ÕO?∆¸Â+|Á?¬Œ]Qçıl  hQû¯@oå^¢Í¢@NãÏÉ÷º”¿.ìÏlB` ¿7Ω.J2Mƒ        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿µG™  =LÃÕ=LÃÕ?fff    =Œ=?=IÍ<∂l6<c=FŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk AÉØŸ>`Ô˙AÉØŸ=í¸vŒnk Œnk Œnk Œnk Aæ,πB?gcAÅ‹O=mŒAmWI<Ìwµ?5Û>◊<VB¥
+          ¿µG™ @   •    /Q˜           e¬º  =Ä   e  À∫@¨àÉ˜H?¬‚ãI√öŒnk Œnk @üe0bñ€πŒnk Œnk Œnk Œnk Œnk   øÔ P*òyü?∆˝zh’¨«?¬–Å…ó)¡  hQ˚ @oP]≈Û1@Nå&C˜Ò¿.îmy
+b¯¿7º*åÖF        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¡œ  =LÃÕ=LÃÕ?fff    =Œ£=?¿=Jc<∂l”<c>	Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aà¥7=ßwÛAà¥7>OúŒnk Œnk Œnk Œnk A∏ıöA—ÔíŒnk Œnk Œnk Œnk ?èMW>ŸÆl@PÅ          ¡œ      ï    /QÁ           eÂA™  1™   e  æ5@wπ^øüÃ˚£C[Œnk Œnk @üX^”XmŒnk Œnk Œnk Œnk Œnk   øËI©∑õâE?‰œΩ’R,üøüÀ¨®vî≥  	ê´PG@m+vÜZj@?	%^}¿F»6ƒÍÍ¿AÖ^b˚[Ä        @@Ωh>≥h¿Œnk Œnk Œnk Œnk @@Ωh>≥h¿Œnk Œnk Œnk Œnk @Óäˇ˛:…ı¿>ˇõ>ˇõ    =7—=5È˛=ã9<≠¶Ì<XPaAâ4¡=ïÁAä ¯= ¬ÆŒnk Œnk Œnk Œnk A®"p>±˛fAüù7>-ÒqAå”b=™*@ÿCø=¡öòC$V\         @Ä     ë    s>ß        AÑ{Ú<Õx÷AÑª}=V`6Œnk Œnk Œnk Œnk Aê
+√=3ÔBAç}n=)€üAÜ]=ãà@"ƒÄ?+Y Bø#         A3Í    |    _‰Í=Ü˘ôøû6ºŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aqâƒ=i&'Ay”==GŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Aá
+=íd!A3ê[=ãH®C%Ã`          ø¿˛     ô    f9~æ ºΩ'ÇwAh6=~1≥AinÓ<”lŒnk Œnk Œnk Œnk A¥ ArîAëÉ.>nÙíA{±i=;ÜIA é=P-–C1qs          ?ò0…     ñ    oΩ—æ FÛ>^I!   eÒ‡d  1™   e  ¿™@!6Ïbrøß$Fù<CˆŒnk Œnk @üWÂÅA†æŒnk Œnk Œnk Œnk Œnk   øÁa»îlÃÚ?ÂÃÜNï{tøß"BG€)  	êT5P@m˛eJˆŸ@<ï©«∂Iä¿Gˆ‘∏‘Ñ¿B.È~Â≤        Œnk Œnk Œnk Œnk ø¨8 @ÕVŒnk Œnk Œnk Œnk ø¨8 @ÕV?¡_  ;I‹;I‹?~m    <¥$<⁄&ö<†%8<P>8<≥ôŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk A•ô.?SÃ¸A®h?¿€Œnk Œnk A&†Ö?xÊ®B¥          =∞ôB @ @  !    9ÍØ        Aõ¥??¢¿OŒnk Œnk Œnk Œnk Œnk Œnk A∞\∞@ÀüVŒnk Œnk Aôë€?êŒ≠Aº‡?xgzB¥          ?©œ @ @  4    -∏ıø‘=Cï   eÈ∏u  1™   e  ø]@Ï⁄“ﬁ¯ø£/ˇÔç!Œnk Œnk @üW˘#ﬁ2Œnk Œnk Œnk Œnk Œnk   øÁ»sXvÒ?ÊòHÜk™ø£.ÿœE¶u  	–&¢2=@l˜râí<@<.ºÀ"Ñ¿HZ˛öÁˇ¿A‡§ˆê¯        Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ¿	#   =LÃÕ=LÃÕ?fff    <úF¬<Ω@/<äÓ<4ß–;·	ºŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Aî]∫=¯mÍAóÒµ?
+ Œnk Œnk Œnk Œnk A≥N!AnfŒnk Œnk AÑÜ=»«]?5Û>è¸B≥ıÒ          ¿	#  @   a    8é	           eˆÿ.  1™   e  ¡~@ı4ê«cø™rî¶¯'Œnk Œnk @üW¡Ns&»Œnk Œnk Œnk Œnk Œnk   øÎ¥º}N?ﬂ‹|áp˛}ø™oëÚCì¶  	ô»ÌáV@nG–îÒ≤@C}!·Yp¿AluàNOå¿BµÏK2p        ?~° >+,Œnk Œnk Œnk Œnk ?~° >+,Œnk Œnk Œnk Œnk @óíÏ ;?,?q—∫=VÛR    =o=ê∫ò=T}¸=
+'ﬁ<¨‹Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Aûì>˜wAúr>D
+A†wC>ÃEê@cPT?(UB[!∏         @Yp     c    +        Aî^T>MG÷Aè>&íøŒnk Œnk Œnk Œnk Añ#ä=≈>Aìâ^=≠rrAíÆs>	∆ò@ÊK? Bé q         @Û©6     π    ∫E>)π≈æ≠†kŒnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk APQ[<áÔZANy·;‰rNŒnk Œnk Œnk Œnk Aµt^A:⁄±Œnk Œnk Œnk Œnk A=w>é<íB¿ÂÔ          ¿3±H    ∑    @∏”?dÓÑøíZA   eÈ   1™   e  ø9@˜¶…ı˛£ø¢G›ö81kŒnk Œnk @üWˆç÷[RŒnk Œnk Œnk Œnk Œnk   øÎΩÎ®V∂B?ﬂ—3b]∏Lø¢Fﬂ/´∞  	ô≈ï„Å@n+LùtT@CÕ"ÓÄRT¿AgC	ü¡≈¿A~Òô£:        ?0`>G›»>*J >|-ı¿V8 AW¢?0`>G›»>*J >|-ı¿V8 AW¢Aç€3  ;Iùc936ë?+/    =_	?=áb=FGt= Í5<†ñAíàü=ü…AêáN>Å^Œnk Œnk Œnk Œnk Aûî¿>÷9AóV =ñﬂπAíñF=úâƒ@|>∂\pAù⁄Ä          A–£     è    $R        Aédî=à~uAíÖ=á7ÜŒnk Œnk Œnk Œnk Aô>Õ#Aè∞u=qhUAå†å=ò“d@ÒB/>2ıC$é\          AŸq     ã    9x=Ó5væÇÎ⁄Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk Œnk ˙
+˙
+ÿÒŒnk     ˙
+ˇˇˇˇ˙
+Œnk Œnk A°ß¸?ë;rA†›Ë?à∆Œnk Œnk Œnk Œnk AóøÅ>O⁄Aúu$>ÍÃA§j%@
+Î ?ÖñI>ˆB¸BÖÉ        ˇˇøè§‹     ®    Ãcø;ßÄ>‰$ÁAr∂g=ÍØ´Aqá<˙G˛Œnk Œnk Œnk Œnk A≤ÜÅANAç<í> œÿAu⁄I=Bª@’+∞=£,8A`V          ?™ﬂ     π    ¥Ø>_\ø5oD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
